@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cobresul Metais | Tubos de Cobre e Semimanufaturados — Joinville, SC</title>
+    <title>Cobresul Metais | Metalurgia de Metais Não-Ferrosos</title>
 
-    <meta name="description" content="Cobresul Metais LTDA, CNPJ 09.652.146/0001-96. Fabricação de tubos de cobre sem costura para refrigeração, ar condicionado e construção civil. Joinville, SC. Desde 2008. Tecnologia Cast & Roll.">
+    <meta name="description" content="Cobresul Metais LTDA, CNPJ 09.652.146/0001-96. Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente. Joinville, SC. Desde 2008.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,14 +18,20 @@
             --azul-claro: #16213e;
             --laranja: #f7931e;
             --verde: #25d366;
-            --cobre: #b87333;
             --texto: #333;
             --cinza-claro: #f5f6f8;
         }
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+        }
 
         body {
             font-family: 'Poppins', Arial, sans-serif;
@@ -34,232 +40,619 @@
             overflow-wrap: break-word;
         }
 
-        a { color: inherit; text-decoration: none; }
-        button { font: inherit; cursor: pointer; }
-        img { max-width: 100%; height: auto; display: block; }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
 
-        .container { width: min(1120px, 90%); margin: 0 auto; }
+        button {
+            font: inherit;
+            cursor: pointer;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .container {
+            width: min(1120px, 90%);
+            margin: 0 auto;
+        }
 
         /* Cabeçalho */
         .header {
-            position: fixed; top: 0; width: 100%; z-index: 1000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
             background: linear-gradient(135deg, var(--azul), var(--azul-claro));
-            color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.2);
+            color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
         }
 
         .header-main {
-            min-height: 84px; display: flex; align-items: center;
-            justify-content: space-between; gap: 24px;
+            min-height: 84px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
         }
 
-        .logo { display: flex; flex-direction: column; line-height: 1.2; }
-        .logo strong { font-size: 23px; letter-spacing: 1px; }
-        .logo span { font-size: 11px; letter-spacing: 3px; color: #f9ae56; }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
 
-        .nav-menu { display: flex; align-items: center; gap: 20px; list-style: none; }
-        .nav-menu a { font-size: 12px; font-weight: 500; }
-        .nav-menu a:hover { color: var(--laranja); }
+        .logo strong {
+            font-size: 23px;
+            letter-spacing: 1px;
+        }
+
+        .logo span {
+            font-size: 11px;
+            letter-spacing: 3px;
+            color: #f9ae56;
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .nav-menu a:hover {
+            color: var(--laranja);
+        }
 
         .nav-menu .nav-whatsapp {
-            display: inline-block; background: var(--verde); color: #073b1c;
-            padding: 10px 16px; border-radius: 24px; font-weight: 700;
+            display: inline-block;
+            background: var(--verde);
+            color: #073b1c;
+            padding: 10px 16px;
+            border-radius: 24px;
+            font-weight: 700;
         }
 
         .mobile-menu-btn {
-            display: none; background: none; color: #fff;
-            border: 1px solid rgba(255,255,255,.5); border-radius: 8px;
-            padding: 6px 12px; font-size: 24px;
+            display: none;
+            background: none;
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, .5);
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 24px;
         }
 
-        /* Hero */
+        /* Apresentação */
         .hero {
             margin-top: 84px;
             background: linear-gradient(135deg, var(--azul) 0%, #203652 100%);
-            padding: 80px 0; color: #fff;
+            padding: 80px 0;
+            color: #fff;
         }
 
         .eyebrow {
-            color: #f9ae56; font-size: 12px; letter-spacing: 2px;
-            text-transform: uppercase; font-weight: 600; margin-bottom: 18px;
+            color: #f9ae56;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 18px;
         }
 
-        .hero h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.2; margin-bottom: 20px; }
-        .hero .intro { max-width: 700px; color: #dce2ed; font-size: 17px; margin-bottom: 28px; }
+        .hero h1 {
+            font-size: clamp(34px, 5vw, 56px);
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
 
-        .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
+        .hero .intro {
+            max-width: 700px;
+            color: #dce2ed;
+            font-size: 17px;
+            margin-bottom: 28px;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
 
         /* Botões */
         .btn {
-            display: inline-flex; align-items: center; justify-content: center;
-            gap: 10px; padding: 15px 26px; border-radius: 30px;
-            font-size: 15px; font-weight: 600; transition: transform .2s, background .2s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 15px 26px;
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            transition: transform .2s, background .2s;
         }
-        .btn:hover { transform: translateY(-2px); }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
 
         .btn-whatsapp {
-            background: var(--verde); color: #073b1c;
-            box-shadow: 0 4px 15px rgba(37,211,102,.25);
+            background: var(--verde);
+            color: #073b1c;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, .25);
         }
-        .btn-whatsapp:hover { background: #20c760; }
 
-        .btn-outline { border: 1px solid rgba(255,255,255,.65); color: #fff; }
-        .btn-orange { background: var(--laranja); color: #241a0e; }
+        .btn-whatsapp:hover {
+            background: #20c760;
+        }
 
-        .icon-whatsapp { width: 24px; height: 24px; flex-shrink: 0; }
+        .btn-outline {
+            border: 1px solid rgba(255, 255, 255, .65);
+            color: #fff;
+        }
 
-        /* Resumo */
-        .summary { background: var(--cinza-claro); padding: 30px 0; }
-        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+        .btn-orange {
+            background: var(--laranja);
+            color: #241a0e;
+        }
 
-        .summary-item { padding-left: 18px; border-left: 3px solid var(--laranja); }
-        .summary-item span { display: block; color: #666; font-size: 12px; margin-bottom: 5px; }
-        .summary-item strong { font-size: 15px; }
-        .status { color: #176534; }
+        .icon-whatsapp {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        /* Resumo cadastral */
+        .summary {
+            background: var(--cinza-claro);
+            padding: 30px 0;
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .summary-item {
+            padding-left: 18px;
+            border-left: 3px solid var(--laranja);
+        }
+
+        .summary-item span {
+            display: block;
+            color: #666;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .summary-item strong {
+            font-size: 15px;
+        }
+
+        .status {
+            color: #176534;
+        }
 
         /* Seções */
-        .section { padding: 64px 0; }
-        .section-light { background: var(--cinza-claro); }
-
-        .section-header { margin-bottom: 40px; text-align: center; }
-        .section-header h2 { font-size: clamp(25px, 3vw, 32px); color: var(--azul); margin-bottom: 10px; }
-        .section-header p { color: #666; max-width: 700px; margin: 0 auto; }
-
-        /* Imagem + texto */
-        .image-text-grid {
-            display: grid; grid-template-columns: 1fr 1fr;
-            gap: 40px; align-items: center;
+        .section {
+            padding: 64px 0;
         }
-        .image-text-grid img { border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.1); }
-        .image-text-content h3 { font-size: 24px; color: var(--azul); margin-bottom: 16px; }
-        .image-text-content p { color: #555; margin-bottom: 12px; font-size: 15px; }
+
+        .section-light {
+            background: var(--cinza-claro);
+        }
+
+        .section-header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .section-header h2 {
+            font-size: clamp(25px, 3vw, 32px);
+            color: var(--azul);
+            margin-bottom: 10px;
+        }
+
+        .section-header p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Imagem com texto */
+        .image-text-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .image-text-grid img {
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,.1);
+        }
+
+        .image-text-content h3 {
+            font-size: 24px;
+            color: var(--azul);
+            margin-bottom: 16px;
+        }
+
+        .image-text-content p {
+            color: #555;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
 
         /* Cards */
-        .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
-        .cards-2 { grid-template-columns: repeat(2, 1fr); }
-        .cards-4 { grid-template-columns: repeat(4, 1fr); }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .cards-2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .cards-4 {
+            grid-template-columns: repeat(4, 1fr);
+        }
 
         .card {
-            background: #fff; border-radius: 12px; padding: 28px;
-            border: 1px solid #e7e9ed; box-shadow: 0 5px 20px rgba(0,0,0,.04);
+            background: #fff;
+            border-radius: 12px;
+            padding: 28px;
+            border: 1px solid #e7e9ed;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .04);
             transition: transform .3s, box-shadow .3s;
         }
-        .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
 
-        .card h3 { font-size: 17px; color: var(--azul); margin-bottom: 12px; }
-        .card p { font-size: 14px; color: #555; }
-
-        .card .value { color: var(--azul); font-size: 18px; font-weight: 600; }
-        .card .status { color: #176534; }
-        .card .code { color: #a45400; font-size: 19px; font-weight: 700; margin-bottom: 6px; }
-
-        .card-icon {
-            width: 48px; height: 48px;
-            background: linear-gradient(135deg, var(--azul), var(--azul-claro));
-            border-radius: 10px; display: flex; align-items: center;
-            justify-content: center; margin-bottom: 16px; color: #fff;
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 30px rgba(0,0,0,.08);
         }
-        .card-icon svg { width: 24px; height: 24px; }
+
+        .card h3 {
+            font-size: 17px;
+            color: var(--azul);
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card .value {
+            color: var(--azul);
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .card .status {
+            color: #176534;
+        }
+
+        .card .code {
+            color: #a45400;
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        /* Ícones dos diferenciais */
+        .card-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--azul), var(--azul-claro));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+
+        .card-icon svg {
+            width: 24px;
+            height: 24px;
+        }
 
         /* Galeria */
-        .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-        .gallery img {
-            width: 100%; height: 220px; object-fit: cover;
-            border-radius: 10px; transition: transform .3s, box-shadow .3s;
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
         }
-        .gallery img:hover { transform: scale(1.03); box-shadow: 0 10px 30px rgba(0,0,0,.15); }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 30px rgba(0,0,0,.15);
+        }
 
         /* Endereço */
-        .address-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .address-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
 
         .address-list {
-            display: grid; grid-template-columns: auto 1fr;
-            gap: 10px 20px; font-size: 14px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px 20px;
+            font-size: 14px;
         }
-        .address-list dt { font-weight: 600; }
-        .address-list dd { color: #555; }
 
-        address { font-style: normal; line-height: 1.9; margin-bottom: 22px; }
+        .address-list dt {
+            font-weight: 600;
+        }
+
+        .address-list dd {
+            color: #555;
+        }
+
+        address {
+            font-style: normal;
+            line-height: 1.9;
+            margin-bottom: 22px;
+        }
 
         /* Contato */
-        .contact { text-align: center; }
-        .contact p { color: #666; margin-bottom: 22px; }
-        .contact-number { display: block; margin-top: 14px; font-size: 18px; font-weight: 600; }
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            color: #666;
+            margin-bottom: 22px;
+        }
+
+        .contact-number {
+            display: block;
+            margin-top: 14px;
+            font-size: 18px;
+            font-weight: 600;
+        }
 
         /* Rodapé */
-        .footer { background: var(--azul); color: #fff; padding: 44px 0 135px; }
-        .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
-        .footer h3 { font-size: 18px; margin-bottom: 12px; }
-        .footer p { color: #c9cbd4; font-size: 13px; margin-bottom: 8px; }
-        .footer a { color: #f9ae56; }
-        .footer-note { border-top: 1px solid rgba(255,255,255,.15); margin-top: 28px; padding-top: 20px; }
-
-        /* WhatsApp flutuante */
-        .floating-whatsapp {
-            position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px));
-            z-index: 1100; max-width: calc(100vw - 40px);
-            display: flex; align-items: center; gap: 12px;
-            background: var(--verde); color: #073b1c;
-            border: 3px solid #fff; padding: 14px 22px; border-radius: 40px;
-            box-shadow: 0 6px 24px rgba(0,0,0,.25);
-            font-size: 16px; font-weight: 700; line-height: 1.4;
+        .footer {
+            background: var(--azul);
+            color: #fff;
+            padding: 44px 0 135px;
         }
-        .floating-whatsapp:hover { background: #20c760; }
-        .floating-whatsapp .icon-whatsapp { width: 32px; height: 32px; }
-        .floating-whatsapp small { display: block; font-size: 13px; font-weight: 600; }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+
+        .footer h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .footer p {
+            color: #c9cbd4;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #f9ae56;
+        }
+
+        .footer-note {
+            border-top: 1px solid rgba(255, 255, 255, .15);
+            margin-top: 28px;
+            padding-top: 20px;
+        }
+
+        /* WhatsApp fixo */
+        .floating-whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+            z-index: 1100;
+            max-width: calc(100vw - 40px);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--verde);
+            color: #073b1c;
+            border: 3px solid #fff;
+            padding: 14px 22px;
+            border-radius: 40px;
+            box-shadow: 0 6px 24px rgba(0, 0, 0, .25);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        .floating-whatsapp:hover {
+            background: #20c760;
+        }
+
+        .floating-whatsapp .icon-whatsapp {
+            width: 32px;
+            height: 32px;
+        }
+
+        .floating-whatsapp small {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+        }
 
         /* Acessibilidade */
-        a:focus-visible, button:focus-visible { outline: 3px solid var(--laranja); outline-offset: 4px; }
-        .skip-link {
-            position: fixed; top: -80px; left: 12px; z-index: 1200;
-            background: #fff; padding: 12px;
+        a:focus-visible,
+        button:focus-visible {
+            outline: 3px solid var(--laranja);
+            outline-offset: 4px;
         }
-        .skip-link:focus { top: 12px; }
+
+        .skip-link {
+            position: fixed;
+            top: -80px;
+            left: 12px;
+            z-index: 1200;
+            background: #fff;
+            padding: 12px;
+        }
+
+        .skip-link:focus {
+            top: 12px;
+        }
 
         /* Responsivo */
         @media (max-width: 900px) {
-            .nav-menu { gap: 14px; }
-            .nav-menu a { font-size: 11px; }
-            .summary-grid { grid-template-columns: repeat(2, 1fr); }
-            .cards, .cards-4 { grid-template-columns: repeat(2, 1fr); }
-            .gallery { grid-template-columns: repeat(2, 1fr); }
+            .nav-menu {
+                gap: 14px;
+            }
+
+            .nav-menu a {
+                font-size: 11px;
+            }
+
+            .summary-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .cards,
+            .cards-4 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
-            .header-main { min-height: 76px; }
-            .logo strong { font-size: 18px; }
-            .mobile-menu-btn { display: block; }
+            .header-main {
+                min-height: 76px;
+            }
+
+            .logo strong {
+                font-size: 18px;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
 
             .nav-menu {
-                display: none; position: absolute; top: 100%;
-                left: 0; right: 0; padding: 22px 5%; background: var(--azul);
-                flex-direction: column; align-items: stretch; gap: 14px;
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                padding: 22px 5%;
+                background: var(--azul);
+                flex-direction: column;
+                align-items: stretch;
+                gap: 14px;
             }
-            .nav-menu.active { display: flex; }
-            .nav-menu a { display: block; padding: 6px 0; font-size: 14px; }
 
-            .hero { margin-top: 76px; padding: 55px 0; }
-            .hero .intro { font-size: 15px; }
+            .nav-menu.active {
+                display: flex;
+            }
 
-            .section { padding: 44px 0; }
+            .nav-menu a {
+                display: block;
+                padding: 6px 0;
+                font-size: 14px;
+            }
 
-            .image-text-grid, .address-grid, .footer-grid,
-            .cards, .cards-2, .cards-4, .gallery { grid-template-columns: 1fr; }
+            .hero {
+                margin-top: 76px;
+                padding: 55px 0;
+            }
 
-            .card { padding: 22px; }
+            .hero .intro {
+                font-size: 15px;
+            }
+
+            .section {
+                padding: 44px 0;
+            }
+
+            .image-text-grid,
+            .address-grid,
+            .footer-grid,
+            .cards,
+            .cards-2,
+            .cards-4,
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .card {
+                padding: 22px;
+            }
         }
 
         @media (max-width: 420px) {
-            .summary-grid { grid-template-columns: 1fr; }
-            .hero-actions .btn { width: 100%; }
-            .address-list { grid-template-columns: 1fr; gap: 4px; }
-            .address-list dd { margin-bottom: 8px; }
-            .floating-whatsapp { right: 12px; padding: 12px 16px; font-size: 15px; }
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-actions .btn {
+                width: 100%;
+            }
+
+            .address-list {
+                grid-template-columns: 1fr;
+                gap: 4px;
+            }
+
+            .address-list dd {
+                margin-bottom: 8px;
+            }
+
+            .floating-whatsapp {
+                right: 12px;
+                padding: 12px 16px;
+                font-size: 15px;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
-            html { scroll-behavior: auto; }
-            .btn, .card, .gallery img { transition: none; }
-            .btn:hover, .card:hover, .gallery img:hover { transform: none; }
+            html {
+                scroll-behavior: auto;
+            }
+
+            .btn,
+            .card,
+            .gallery img {
+                transition: none;
+            }
+
+            .btn:hover,
+            .card:hover,
+            .gallery img:hover {
+                transform: none;
+            }
         }
     </style>
 </head>
@@ -267,6 +660,7 @@
 <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
+    <!-- Ícone reutilizável do WhatsApp -->
     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute">
         <symbol id="whatsapp-icon" viewBox="0 0 24 24">
             <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
@@ -278,7 +672,7 @@
         <div class="container header-main">
             <a href="#inicio" class="logo" aria-label="Cobresul Metais — início">
                 <strong>COBRESUL</strong>
-                <span>TUBOS DE COBRE</span>
+                <span>METAIS E LIGAS</span>
             </a>
 
             <nav aria-label="Menu principal">
@@ -302,22 +696,21 @@
     </header>
 
     <main id="conteudo">
-        <!-- Hero -->
+        <!-- Apresentação -->
         <section class="hero" id="inicio">
             <div class="container">
                 <p class="eyebrow">Joinville · Santa Catarina</p>
                 <h1>Cobresul Metais</h1>
                 <p class="intro">
-                    Fabricante de tubos de cobre sem costura para refrigeração, ar condicionado,
-                    aquecimento e construção civil. Tecnologia Cast & Roll, qualidade certificada
-                    e capacidade produtiva integrada ao Grupo Plasinco.
+                    Desde 2008 atuando na metalurgia de metais não-ferrosos e suas ligas,
+                    com qualidade, tecnologia e compromisso com o setor industrial brasileiro.
                 </p>
                 <div class="hero-actions">
                     <a class="btn btn-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">
                         <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
-                        Solicitar Orçamento
+                        Falar com Especialista
                     </a>
-                    <a class="btn btn-outline" href="#produtos">Conhecer Produtos</a>
+                    <a class="btn btn-outline" href="#produtos">Nossos Produtos</a>
                 </div>
             </div>
         </section>
@@ -330,7 +723,7 @@
                     <strong>09.652.146/0001-96</strong>
                 </div>
                 <div class="summary-item">
-                    <span>Fundação</span>
+                    <span>Data de fundação</span>
                     <strong>20/06/2008</strong>
                 </div>
                 <div class="summary-item">
@@ -344,22 +737,21 @@
             </div>
         </section>
 
-        <!-- Sobre -->
+        <!-- Sobre a empresa -->
         <section class="section" id="empresa">
             <div class="container">
                 <div class="section-header">
                     <h2>Sobre a Cobresul Metais</h2>
-                    <p>Parte do Grupo Plasinco, com mais de 40 anos de experiência no setor de metais.</p>
+                    <p>Compromisso com a qualidade e com o desenvolvimento industrial.</p>
                 </div>
 
                 <div class="image-text-grid">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Tubos de cobre industriais">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Metais e ligas não-ferrosas">
                     <div class="image-text-content">
-                        <h3>Qualidade em tubos de cobre desde 2008</h3>
-                        <p>A <strong>Cobresul Metais LTDA</strong>, CNPJ <strong>09.652.146/0001-96</strong>, foi fundada em <strong>20/06/2008</strong> e está sediada em <strong>Joinville, Santa Catarina</strong> [citation:6][citation:10].</p>
-                        <p>Sua atividade principal é a <strong>metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente</strong> (CNAE 24.49-1-99), com foco na <strong>produção e comercialização de tubos de cobre</strong> destinados aos segmentos de refrigeração, ar condicionado e construção civil [citation:1][citation:5].</p>
-                        <p>A empresa faz parte do <strong>Grupo Plasinco</strong>, que conta com mais de 40 anos de atividade e capacidade instalada de <strong>220.000 toneladas anuais</strong> de semimanufaturados de cobre [citation:1][citation:7].</p>
-                        <p>A unidade industrial em Joinville ocupa uma área de <strong>80.000 m²</strong>, com <strong>15.000 m²</strong> de área construída [citation:1][citation:9].</p>
+                        <h3>Qualidade que transforma</h3>
+                        <p>A <strong>Cobresul Metais LTDA</strong>, inscrita no CNPJ <strong>09.652.146/0001-96</strong>, foi fundada em <strong>20/06/2008</strong> na cidade de <strong>Joinville, Santa Catarina</strong>.</p>
+                        <p>Sua atividade principal é <strong>24.49-1-99 — Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente</strong>, e sua situação cadastral é <strong>Ativa</strong>.</p>
+                        <p>Com atuação no setor metalúrgico, a Cobresul Metais consolidou-se como referência no processamento de metais não-ferrosos, atendendo às demandas industriais com produtos de qualidade e tecnologia.</p>
                     </div>
                 </div>
             </div>
@@ -370,72 +762,40 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Nossos Produtos</h2>
-                    <p>Linha completa de tubos de cobre sem costura para diversas aplicações industriais.</p>
+                    <p>Linha de produtos em metais não-ferrosos e suas ligas para aplicações industriais.</p>
                 </div>
 
                 <div class="cards cards-4">
                     <article class="card">
                         <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM5 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zM19 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM5 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zM19 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zM15.5 13c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5z"/></svg>
                         </div>
-                        <h3>Tubos Classe</h3>
-                        <p>Tubos de cobre para instalações de água, gás e aplicações gerais na construção civil.</p>
+                        <h3>Ligas de Cobre</h3>
+                        <p>Ligas de cobre de alta qualidade para aplicações industriais e elétricas.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
                         </div>
-                        <h3>Tubos Solar</h3>
-                        <p>Tubos de cobre desenvolvidos para sistemas de aquecimento solar e energia térmica.</p>
+                        <h3>Metais Não-Ferrosos</h3>
+                        <p>Processamento de metais não-ferrosos para diversos segmentos da indústria.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
                         </div>
-                        <h3>Bobinas e Carretéis</h3>
-                        <p>Tubos flexíveis em bobinas para refrigeração, ar condicionado e trocadores de calor [citation:3].</p>
+                        <h3>Ligas Especiais</h3>
+                        <p>Ligas não especificadas anteriormente, desenvolvidas conforme a necessidade do cliente.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
                         </div>
-                        <h3>Tubos Retos sem Costura</h3>
-                        <p>Tubos retos com diâmetros e espessuras homogêneas, produzidos pela tecnologia Cast & Roll.</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-                        </div>
-                        <h3>Tubos Gás</h3>
-                        <p>Tubos de cobre específicos para instalações de gás, com segurança e conformidade técnica.</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
-                        </div>
-                        <h3>Tubos Ranhurados</h3>
-                        <p>Tubos com ranhuras para aplicações específicas em sistemas de troca térmica.</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
-                        </div>
-                        <h3>Tubos Panqueca</h3>
-                        <p>Tubos de cobre em formato de panqueca para aplicações de refrigeração e climatização.</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
-                        </div>
-                        <h3>Soluções Personalizadas</h3>
-                        <p>Desenvolvimento de produtos conforme a necessidade específica de cada cliente.</p>
+                        <h3>Metalurgia Especializada</h3>
+                        <p>Soluções em metalurgia de metais não-ferrosos com alto padrão de qualidade.</p>
                     </article>
                 </div>
             </div>
@@ -446,7 +806,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Por que escolher a Cobresul</h2>
-                    <p>Diferenciais que consolidam a empresa como referência em tubos de cobre.</p>
+                    <p>Diferenciais que garantem a qualidade reconhecida no mercado.</p>
                 </div>
 
                 <div class="cards cards-3">
@@ -454,24 +814,16 @@
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
                         </div>
-                        <h3>Certificação ISO 9001</h3>
-                        <p>Sistema de Gestão da Qualidade certificado pela Bureau Veritas para produção de tubos de cobre [citation:5].</p>
+                        <h3>Qualidade Certificada</h3>
+                        <p>Produtos com padrão de qualidade e conformidade com as normas técnicas.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
                         </div>
-                        <h3>Tecnologia Cast & Roll</h3>
-                        <p>Linha de produção integrada de fundição, laminação e trefilação, gerando tubos sem costura com alta homogeneidade [citation:1].</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
-                        </div>
-                        <h3>Grupo Plasinco</h3>
-                        <p>Parte de grupo com mais de 40 anos de experiência e capacidade instalada de 220.000 toneladas/ano [citation:1].</p>
+                        <h3>Desde 2008</h3>
+                        <p>Experiência consolidada no mercado de metalurgia de metais não-ferrosos.</p>
                     </article>
 
                     <article class="card">
@@ -479,23 +831,31 @@
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
                         </div>
                         <h3>Localização Estratégica</h3>
-                        <p>Unidade industrial em Joinville, SC, com 80.000 m² de área total e logística para o mercado nacional e exportação [citation:9].</p>
-                    </article>
-
-                    <article class="card">
-                        <div class="card-icon">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
-                        </div>
-                        <h3>Laboratório Próprio</h3>
-                        <p>Laboratório técnico completo para ensaios e análises, garantindo conformidade com normas ABNT e ASTM [citation:12].</p>
+                        <p>Empresa sediada em Joinville, SC, polo industrial com fácil acesso e logística.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-icon">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
                         </div>
-                        <h3>Equipe Especializada</h3>
-                        <p>Engenheiros e técnicos capacitados para desenvolver soluções inovadoras para cada desafio [citation:9].</p>
+                        <h3>Atendimento Especializado</h3>
+                        <p>Equipe técnica pronta para auxiliar na escolha da liga ideal para sua aplicação.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
+                        </div>
+                        <h3>Logística Ágil</h3>
+                        <p>Entrega eficiente e prazos cumpridos para atender sua demanda industrial.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                        </div>
+                        <h3>Empresa Regularizada</h3>
+                        <p>Situação cadastral ativa e operação em conformidade com a legislação.</p>
                     </article>
                 </div>
             </div>
@@ -506,13 +866,13 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Nosso Universo</h2>
-                    <p>Imagens que representam a produção de tubos de cobre e o ambiente industrial.</p>
+                    <p>Imagens que representam o setor metalúrgico e a produção de metais não-ferrosos.</p>
                 </div>
 
                 <div class="gallery">
-                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Tubos de cobre">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Metais e ligas">
                     <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop" alt="Processo industrial">
-                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Bobinas de cobre">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Bobinas de metal">
                     <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Indústria metalúrgica">
                     <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=400&fit=crop" alt="Equipamentos industriais">
                     <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&h=400&fit=crop" alt="Estrutura metálica">
@@ -535,15 +895,12 @@
                         <p>Razão social: Cobresul Metais LTDA</p>
                         <p>CNPJ: 09.652.146/0001-96</p>
                         <p>Fundação: 20/06/2008</p>
-                        <p>Natureza jurídica: Sociedade Empresária Limitada</p>
-                        <p>Capital social: R$ 170.000.000,00</p>
                     </article>
 
                     <article class="card">
                         <h3>Atividade principal</h3>
                         <p class="code">24.49-1-99</p>
                         <p>Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente.</p>
-                        <p><strong>Atividades secundárias:</strong> metalurgia do cobre; coleta e recuperação de materiais metálicos; comércio atacadista de materiais de construção [citation:6].</p>
                     </article>
 
                     <article class="card">
@@ -551,8 +908,6 @@
                         <p class="value status">Ativa</p>
                         <p>Município: Joinville</p>
                         <p>Estado: Santa Catarina</p>
-                        <p>Porte: Demais</p>
-                        <p>Grupo econômico: Grupo Plasinco</p>
                     </article>
                 </div>
             </div>
@@ -563,7 +918,7 @@
             <div class="container">
                 <div class="section-header">
                     <h2>Endereço</h2>
-                    <p>Localização da unidade industrial e dados para correspondência.</p>
+                    <p>Localização e dados para correspondência.</p>
                 </div>
 
                 <div class="address-grid">
@@ -571,31 +926,25 @@
                         <h3>Localização</h3>
                         <dl class="address-list">
                             <dt>Logradouro</dt>
-                            <dd>Rua Jorge Cecyn, 260</dd>
-                            <dt>Bairro</dt>
-                            <dd>Distrito Industrial Norte</dd>
-                            <dt>CEP</dt>
-                            <dd>89219-625</dd>
+                            <dd>Joinville — Santa Catarina</dd>
                             <dt>Município</dt>
                             <dd>Joinville</dd>
                             <dt>Estado</dt>
                             <dd>Santa Catarina</dd>
-                            <dt>Telefone</dt>
-                            <dd>(47) 3435-0322 [citation:4]</dd>
+                            <dt>CEP</dt>
+                            <dd>—</dd>
                         </dl>
                     </article>
 
                     <article class="card">
                         <h3>Para correspondência</h3>
                         <address>
-                            <strong>Cobresul Metais LTDA</strong><br>
-                            Rua Jorge Cecyn, 260<br>
-                            Distrito Industrial Norte<br>
-                            Joinville — SC<br>
-                            CEP: 89219-625<br>
+                            <strong>Cobresul Metais</strong><br>
+                            Cobresul Metais LTDA<br>
+                            Joinville — Santa Catarina<br>
                             Brasil
                         </address>
-                        <a class="btn btn-orange" href="https://www.google.com/maps/search/?api=1&query=Rua+Jorge+Cecyn+260+Distrito+Industrial+Norte+Joinville+SC+89219-625" target="_blank" rel="noopener noreferrer">
+                        <a class="btn btn-orange" href="https://www.google.com/maps/search/?api=1&query=Joinville+Santa+Catarina+Brasil" target="_blank" rel="noopener noreferrer">
                             Ver no mapa
                         </a>
                     </article>
@@ -609,15 +958,12 @@
                 <div class="section-header">
                     <h2>Fale Conosco</h2>
                 </div>
-                <p>Solicite um orçamento ou tire suas dúvidas sobre nossos tubos de cobre pelo WhatsApp.</p>
+                <p>Solicite um orçamento ou tire suas dúvidas sobre nossos produtos pelo WhatsApp.</p>
                 <a class="btn btn-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">
                     <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
                     Entrar em contato
                 </a>
                 <span class="contact-number">(11) 91861-8745</span>
-                <p style="margin-top: 12px; font-size: 14px; color: #888;">
-                    Telefone fixo da fábrica: (47) 3435-0322 [citation:4]
-                </p>
             </div>
         </section>
     </main>
@@ -632,23 +978,21 @@
                     <p>CNPJ: 09.652.146/0001-96</p>
                     <p>Fundação: 20/06/2008</p>
                     <p>Atividade: 24.49-1-99 — Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente.</p>
-                    <p>Grupo: Plasinco</p>
                 </div>
                 <div>
                     <h3>Endereço e contato</h3>
-                    <p>Rua Jorge Cecyn, 260 — Distrito Industrial Norte</p>
-                    <p>Joinville — Santa Catarina — CEP: 89219-625</p>
-                    <p>Telefone: (47) 3435-0322</p>
+                    <p>Joinville — Santa Catarina</p>
+                    <p>Brasil</p>
                     <p><a href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 91861-8745</a></p>
                 </div>
             </div>
             <div class="footer-note">
-                <p>Informações cadastrais apresentadas conforme dados públicos da Receita Federal e site oficial da empresa.</p>
+                <p>Informações cadastrais apresentadas conforme os dados fornecidos.</p>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp fixo -->
+    <!-- Botão fixo do WhatsApp -->
     <a class="floating-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp: (11) 91861-8745">
         <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
         <span>
