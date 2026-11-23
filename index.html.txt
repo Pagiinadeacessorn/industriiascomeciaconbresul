@@ -1,2340 +1,687 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SIL Cabos Elétricos | Fabricação de Fios, Cabos e Condutores — Guarulhos/SP</title>
-<meta name="description" content="Sil Cabos Elétricos — Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda. Fabricação de fios, cabos e condutores elétricos isolados em Guarulhos/SP. CNPJ 61.310.256/0001-90. Desde 1968.">
-<meta name="keywords" content="Sil Cabos Elétricos, Elétrica Danúbio, fios elétricos, cabos elétricos, condutores isolados, cobre, fabricação de cabos, Guarulhos, SP, indústria elétrica">
-<meta name="author" content="Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda.">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#0a2240">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta property="og:title" content="SIL Cabos Elétricos | Fabricação de Fios e Cabos Elétricos">
-<meta property="og:description" content="Fabricação de fios, cabos e condutores elétricos isolados em Guarulhos/SP. CNPJ 61.310.256/0001-90.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="pt_BR">
-<meta property="og:site_name" content="SIL Cabos Elétricos">
+    <title>Cobresul Metais | Tubos de Cobre e Semimanufaturados — Joinville, SC</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Cobresul Metais LTDA, CNPJ 09.652.146/0001-96. Fabricação de tubos de cobre sem costura para refrigeração, ar condicionado e construção civil. Joinville, SC. Desde 2008. Tecnologia Cast & Roll.">
 
-<style>
-/* ====================== VARIÁVEIS ====================== */
-:root {
-    --primary: #0a2240;
-    --primary-2: #12335c;
-    --primary-3: #1c4577;
-    --accent: #f2b705;
-    --accent-2: #ffcc33;
-    --accent-dark: #c79500;
-    --copper: #b87333;
-    --copper-2: #d49356;
-    --text: #1f2937;
-    --text-mute: #6b7280;
-    --bg: #f7f9fc;
-    --bg-alt: #eef2f8;
-    --white: #ffffff;
-    --border: #e2e8f0;
-    --success: #10b981;
-    --shadow-sm: 0 1px 3px rgba(10,34,64,0.06);
-    --shadow-md: 0 8px 24px rgba(10,34,64,0.08);
-    --shadow-lg: 0 24px 48px rgba(10,34,64,0.14);
-    --shadow-xl: 0 32px 64px rgba(10,34,64,0.18);
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 110px; }
+    <style>
+        :root {
+            --azul: #1a1a2e;
+            --azul-claro: #16213e;
+            --laranja: #f7931e;
+            --verde: #25d366;
+            --cobre: #b87333;
+            --texto: #333;
+            --cinza-claro: #f5f6f8;
+        }
 
-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
-}
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-img { max-width: 100%; display: block; }
-a { color: inherit; }
+        html { scroll-behavior: smooth; scroll-padding-top: 100px; }
 
-/* ====================== TOPBAR ====================== */
-.topbar {
-    background: var(--primary);
-    color: #c9d8e6;
-    font-size: 0.82rem;
-    padding: 10px 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
-    flex-wrap: wrap;
-}
-.topbar strong { color: #fff; font-weight: 600; }
-.topbar a { color: var(--accent-2); text-decoration: none; font-weight: 600; }
-.topbar a:hover { text-decoration: underline; }
-.topbar .dot { opacity: 0.4; }
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            color: var(--texto);
+            line-height: 1.7;
+            overflow-wrap: break-word;
+        }
 
-/* ====================== NAVBAR ====================== */
-.navbar {
-    background: var(--white);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: var(--shadow-sm);
-    border-bottom: 1px solid var(--border);
-}
-.nav-container {
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 14px 24px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    flex-wrap: wrap;
-}
-.brand {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    text-decoration: none;
-}
-.brand-mark {
-    width: 48px;
-    height: 48px;
-    background: linear-gradient(135deg, var(--primary), var(--primary-2));
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--accent);
-    font-weight: 900;
-    font-size: 1.05rem;
-    letter-spacing: -1px;
-    box-shadow: 0 6px 14px rgba(10,34,64,0.25);
-}
-.brand-text { line-height: 1.15; }
-.brand-text .name {
-    font-weight: 800;
-    font-size: 1.12rem;
-    color: var(--primary);
-    letter-spacing: -0.4px;
-}
-.brand-text .tag {
-    font-size: 0.7rem;
-    color: var(--text-mute);
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
-    font-weight: 600;
-}
+        a { color: inherit; text-decoration: none; }
+        button { font: inherit; cursor: pointer; }
+        img { max-width: 100%; height: auto; display: block; }
 
-.nav-links {
-    display: flex;
-    gap: 24px;
-    list-style: none;
-    align-items: center;
-}
-.nav-links > li { position: relative; }
-.nav-links a {
-    color: var(--text);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    transition: color 0.2s;
-    padding: 8px 0;
-    display: inline-block;
-}
-.nav-links > li > a:hover { color: var(--accent-dark); }
+        .container { width: min(1120px, 90%); margin: 0 auto; }
 
-/* Submenu */
-.submenu {
-    position: absolute;
-    top: 100%;
-    left: -14px;
-    min-width: 220px;
-    background: var(--white);
-    border-radius: 12px;
-    box-shadow: var(--shadow-lg);
-    border: 1px solid var(--border);
-    padding: 8px 0;
-    list-style: none;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(8px);
-    transition: all 0.25s;
-    margin-top: 12px;
-}
-.nav-links > li:hover .submenu {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-.submenu li a {
-    display: block;
-    padding: 10px 20px;
-    font-size: 0.88rem;
-    color: var(--text);
-    transition: all 0.2s;
-}
-.submenu li a:hover {
-    background: var(--bg-alt);
-    color: var(--accent-dark);
-    padding-left: 24px;
-}
+        /* Cabeçalho */
+        .header {
+            position: fixed; top: 0; width: 100%; z-index: 1000;
+            background: linear-gradient(135deg, var(--azul), var(--azul-claro));
+            color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.2);
+        }
 
-.nav-cta {
-    background: var(--accent);
-    color: var(--primary) !important;
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 0.86rem;
-    transition: all 0.25s !important;
-}
-.nav-cta:hover {
-    background: var(--accent-2);
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgba(242,183,5,0.4);
-}
+        .header-main {
+            min-height: 84px; display: flex; align-items: center;
+            justify-content: space-between; gap: 24px;
+        }
 
-/* ====================== BREADCRUMB ====================== */
-.breadcrumb-bar {
-    background: var(--bg-alt);
-    border-bottom: 1px solid var(--border);
-    padding: 12px 24px;
-    font-size: 0.82rem;
-    color: var(--text-mute);
-}
-.breadcrumb-inner {
-    max-width: 1240px;
-    margin: 0 auto;
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.breadcrumb-inner a { color: var(--text-mute); text-decoration: none; }
-.breadcrumb-inner a:hover { color: var(--accent-dark); }
-.breadcrumb-inner span { opacity: 0.5; }
+        .logo { display: flex; flex-direction: column; line-height: 1.2; }
+        .logo strong { font-size: 23px; letter-spacing: 1px; }
+        .logo span { font-size: 11px; letter-spacing: 3px; color: #f9ae56; }
 
-/* ====================== HERO COM IMAGEM ====================== */
-.hero {
-    position: relative;
-    color: #fff;
-    padding: 100px 24px 110px;
-    overflow: hidden;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-2) 100%);
-}
-.hero-bg {
-    position: absolute;
-    inset: 0;
-    z-index: 1;
-}
-.hero-bg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.35;
-}
-.hero::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(circle at 15% 25%, rgba(242,183,5,0.18) 0%, transparent 45%),
-        radial-gradient(circle at 85% 80%, rgba(184,115,51,0.20) 0%, transparent 45%),
-        linear-gradient(135deg, rgba(10,34,64,0.94) 0%, rgba(18,51,92,0.90) 100%);
-    z-index: 2;
-}
-.hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image:
-        linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
-    background-size: 60px 60px;
-    pointer-events: none;
-    z-index: 2;
-}
-.hero-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1.15fr 1fr;
-    gap: 60px;
-    align-items: center;
-    position: relative;
-    z-index: 3;
-}
-@media (max-width: 900px) {
-    .hero-inner { grid-template-columns: 1fr; gap: 40px; }
-    .hero { padding: 70px 20px 80px; }
-}
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(242,183,5,0.18);
-    color: var(--accent-2);
-    padding: 8px 16px;
-    border-radius: 50px;
-    font-size: 0.76rem;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    margin-bottom: 24px;
-    border: 1px solid rgba(242,183,5,0.35);
-    backdrop-filter: blur(6px);
-}
-.hero-badge::before {
-    content: '';
-    width: 8px; height: 8px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 4px rgba(242,183,5,0.25);
-    animation: pulse 2s infinite;
-}
-@keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
-}
-.hero h1 {
-    font-size: clamp(2rem, 4.5vw, 3.2rem);
-    font-weight: 900;
-    line-height: 1.12;
-    letter-spacing: -1.2px;
-    margin-bottom: 22px;
-    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
-}
-.hero h1 .hl { color: var(--accent-2); }
-.hero p.lead {
-    font-size: 1.05rem;
-    color: #e2e8f0;
-    max-width: 580px;
-    margin-bottom: 36px;
-    line-height: 1.75;
-}
-.hero-actions {
-    display: flex;
-    gap: 14px;
-    flex-wrap: wrap;
-}
-.btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 14px 28px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.94rem;
-    transition: all 0.25s;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-}
-.btn-primary {
-    background: var(--accent);
-    color: var(--primary);
-    box-shadow: 0 10px 24px rgba(242,183,5,0.35);
-}
-.btn-primary:hover {
-    background: var(--accent-2);
-    transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(242,183,5,0.5);
-}
-.btn-ghost {
-    background: rgba(255,255,255,0.06);
-    color: #fff;
-    border: 1.5px solid rgba(255,255,255,0.25);
-    backdrop-filter: blur(6px);
-}
-.btn-ghost:hover {
-    border-color: #fff;
-    background: rgba(255,255,255,0.12);
-}
-.hero-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 22px;
-    margin-top: 44px;
-    padding-top: 30px;
-    border-top: 1px solid rgba(255,255,255,0.15);
-    max-width: 580px;
-}
-.hero-stat .num {
-    font-size: 1.75rem;
-    font-weight: 800;
-    color: var(--accent-2);
-    letter-spacing: -1px;
-    line-height: 1;
-}
-.hero-stat .lbl {
-    font-size: 0.72rem;
-    color: #cbd5e1;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    margin-top: 8px;
-    display: block;
-}
+        .nav-menu { display: flex; align-items: center; gap: 20px; list-style: none; }
+        .nav-menu a { font-size: 12px; font-weight: 500; }
+        .nav-menu a:hover { color: var(--laranja); }
 
-/* Hero Card */
-.hero-card {
-    background: rgba(255,255,255,0.08);
-    border: 1px solid rgba(255,255,255,0.18);
-    border-radius: 20px;
-    padding: 30px 28px;
-    backdrop-filter: blur(14px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-}
-.hero-card h3 {
-    font-size: 0.74rem;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-    color: var(--accent-2);
-    font-weight: 700;
-    margin-bottom: 18px;
-}
-.hero-card-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    padding: 14px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.10);
-}
-.hero-card-item:last-child { border-bottom: none; padding-bottom: 0; }
-.hero-card-item .ico {
-    width: 36px; height: 36px;
-    background: rgba(242,183,5,0.18);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.95rem;
-    flex-shrink: 0;
-}
-.hero-card-item .k {
-    font-size: 0.68rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #cbd5e1;
-    font-weight: 600;
-    margin-bottom: 3px;
-}
-.hero-card-item .v {
-    color: #fff;
-    font-weight: 600;
-    font-size: 0.9rem;
-    word-break: break-word;
-}
+        .nav-menu .nav-whatsapp {
+            display: inline-block; background: var(--verde); color: #073b1c;
+            padding: 10px 16px; border-radius: 24px; font-weight: 700;
+        }
 
-/* ====================== STRIP ====================== */
-.strip {
-    background: var(--white);
-    border-bottom: 1px solid var(--border);
-    padding: 20px 24px;
-}
-.strip-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-.strip-item {
-    color: var(--text-mute);
-    font-size: 0.76rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.strip-item::before {
-    content: '◆';
-    color: var(--accent);
-    font-size: 0.7rem;
-}
+        .mobile-menu-btn {
+            display: none; background: none; color: #fff;
+            border: 1px solid rgba(255,255,255,.5); border-radius: 8px;
+            padding: 6px 12px; font-size: 24px;
+        }
 
-/* ====================== SEÇÃO BASE ====================== */
-section.block { padding: 85px 24px; }
-section.alt { background: var(--white); }
-.container { max-width: 1200px; margin: 0 auto; }
+        /* Hero */
+        .hero {
+            margin-top: 84px;
+            background: linear-gradient(135deg, var(--azul) 0%, #203652 100%);
+            padding: 80px 0; color: #fff;
+        }
 
-.section-head {
-    max-width: 800px;
-    margin: 0 auto 56px;
-    text-align: center;
-}
-.section-head.left {
-    text-align: left;
-    margin-left: 0;
-}
-.section-head .eyebrow {
-    display: inline-block;
-    color: var(--accent-dark);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-    font-size: 0.72rem;
-    margin-bottom: 14px;
-    padding: 6px 14px;
-    background: rgba(242,183,5,0.12);
-    border-radius: 50px;
-}
-.section-head h2 {
-    font-size: clamp(1.7rem, 3.3vw, 2.3rem);
-    color: var(--primary);
-    letter-spacing: -0.8px;
-    line-height: 1.2;
-    margin-bottom: 16px;
-    font-weight: 800;
-}
-.section-head p {
-    color: var(--text-mute);
-    font-size: 1rem;
-    line-height: 1.75;
-}
+        .eyebrow {
+            color: #f9ae56; font-size: 12px; letter-spacing: 2px;
+            text-transform: uppercase; font-weight: 600; margin-bottom: 18px;
+        }
 
-/* ====================== GALERIA ====================== */
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-}
-.gal-item {
-    position: relative;
-    border-radius: 18px;
-    overflow: hidden;
-    aspect-ratio: 4 / 3;
-    box-shadow: var(--shadow-md);
-    transition: transform 0.35s, box-shadow 0.35s;
-}
-.gal-item:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-xl);
-}
-.gal-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s;
-}
-.gal-item:hover img {
-    transform: scale(1.08);
-}
-.gal-item .cap {
-    position: absolute;
-    inset: auto 0 0 0;
-    padding: 22px 20px 18px;
-    background: linear-gradient(to top, rgba(10,34,64,0.92), transparent);
-    color: #fff;
-}
-.gal-item .cap strong {
-    display: block;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 4px;
-}
-.gal-item .cap span {
-    font-size: 0.84rem;
-    color: #cbd5e1;
-}
+        .hero h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.2; margin-bottom: 20px; }
+        .hero .intro { max-width: 700px; color: #dce2ed; font-size: 17px; margin-bottom: 28px; }
 
-/* ====================== FEATURES ====================== */
-.features {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 26px;
-}
-.feat {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 34px 28px;
-    transition: all 0.35s cubic-bezier(.2,.8,.2,1);
-    position: relative;
-    overflow: hidden;
-}
-.feat::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 3px;
-    background: linear-gradient(90deg, var(--accent), var(--accent-2));
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s;
-}
-.feat:hover {
-    transform: translateY(-6px);
-    box-shadow: var(--shadow-lg);
-    border-color: transparent;
-}
-.feat:hover::before { transform: scaleX(1); }
-.feat-icon {
-    width: 54px;
-    height: 54px;
-    border-radius: 14px;
-    background: linear-gradient(135deg, var(--primary), var(--primary-2));
-    color: var(--accent-2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.35rem;
-    font-weight: 800;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(10,34,64,0.15);
-}
-.feat h3 {
-    font-size: 1.04rem;
-    color: var(--primary);
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-.feat p {
-    color: var(--text-mute);
-    font-size: 0.91rem;
-    line-height: 1.7;
-}
+        .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
 
-/* ====================== SOBRE ====================== */
-.about-2col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 56px;
-    align-items: center;
-}
-@media (max-width: 900px) { .about-2col { grid-template-columns: 1fr; gap: 40px; } }
-.about-2col h2 {
-    font-size: clamp(1.65rem, 3.2vw, 2.15rem);
-    color: var(--primary);
-    letter-spacing: -0.6px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-    font-weight: 800;
-}
-.about-2col p {
-    color: var(--text-mute);
-    font-size: 0.98rem;
-    line-height: 1.85;
-    margin-bottom: 16px;
-}
-.about-list {
-    list-style: none;
-    margin-top: 24px;
-}
-.about-list li {
-    display: flex;
-    gap: 14px;
-    align-items: flex-start;
-    padding: 12px 0;
-    border-bottom: 1px dashed var(--border);
-    color: var(--text);
-    font-size: 0.94rem;
-}
-.about-list li:last-child { border-bottom: none; }
-.about-list .check {
-    width: 24px; height: 24px;
-    background: rgba(16,185,129,0.12);
-    color: var(--success);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.75rem;
-    font-weight: 800;
-    flex-shrink: 0;
-    margin-top: 2px;
-}
-.about-img {
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-    aspect-ratio: 4 / 3;
-}
-.about-img img {
-    width: 100%; height: 100%; object-fit: cover;
-    transition: transform 0.6s;
-}
-.about-img:hover img { transform: scale(1.05); }
-.about-img .overlay-badge {
-    position: absolute;
-    bottom: 20px; left: 20px;
-    background: rgba(10,34,64,0.92);
-    color: #fff;
-    padding: 12px 18px;
-    border-radius: 12px;
-    backdrop-filter: blur(6px);
-    border: 1px solid rgba(242,183,5,0.4);
-}
-.about-img .overlay-badge strong {
-    color: var(--accent-2);
-    display: block;
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 1.4px;
-    margin-bottom: 4px;
-}
-.about-img .overlay-badge span {
-    font-size: 1rem;
-    font-weight: 800;
-}
+        /* Botões */
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            gap: 10px; padding: 15px 26px; border-radius: 30px;
+            font-size: 15px; font-weight: 600; transition: transform .2s, background .2s;
+        }
+        .btn:hover { transform: translateY(-2px); }
 
-/* Bloco info escuro */
-.about-visual {
-    background: linear-gradient(135deg, var(--primary), var(--primary-2));
-    border-radius: 20px;
-    padding: 42px 38px;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-}
-.about-visual::before {
-    content: '';
-    position: absolute;
-    top: -60px; right: -60px;
-    width: 260px; height: 260px;
-    background: radial-gradient(circle, rgba(184,115,51,0.35), transparent 70%);
-    border-radius: 50%;
-}
-.about-visual h3 {
-    font-size: 1.1rem;
-    margin-bottom: 24px;
-    position: relative;
-    font-weight: 700;
-}
-.about-visual .stat-row {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    position: relative;
-    gap: 16px;
-    flex-wrap: wrap;
-}
-.about-visual .stat-row:last-child { border-bottom: none; }
-.about-visual .stat-row .lbl {
-    color: #94a3b8;
-    font-size: 0.83rem;
-    font-weight: 500;
-}
-.about-visual .stat-row .val {
-    color: var(--accent-2);
-    font-weight: 700;
-    font-size: 0.92rem;
-    text-align: right;
-}
+        .btn-whatsapp {
+            background: var(--verde); color: #073b1c;
+            box-shadow: 0 4px 15px rgba(37,211,102,.25);
+        }
+        .btn-whatsapp:hover { background: #20c760; }
 
-/* ====================== TIMELINE ====================== */
-.timeline-section {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-2) 100%);
-    padding: 85px 24px;
-    color: #fff;
-    position: relative;
-    overflow: hidden;
-}
-.timeline-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(circle at 20% 30%, rgba(242,183,5,0.14), transparent 45%),
-        radial-gradient(circle at 80% 70%, rgba(184,115,51,0.14), transparent 45%);
-}
-.timeline-inner { position: relative; max-width: 1000px; margin: 0 auto; }
-.timeline-head {
-    text-align: center;
-    margin-bottom: 56px;
-}
-.timeline-head .eyebrow {
-    display: inline-block;
-    color: var(--accent-2);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-    font-size: 0.72rem;
-    margin-bottom: 14px;
-    padding: 6px 14px;
-    background: rgba(242,183,5,0.15);
-    border-radius: 50px;
-}
-.timeline-head h2 {
-    font-size: clamp(1.7rem, 3.3vw, 2.3rem);
-    font-weight: 800;
-    letter-spacing: -0.8px;
-    margin-bottom: 16px;
-}
-.timeline-head p {
-    color: #cbd5e1;
-    max-width: 640px;
-    margin: 0 auto;
-    font-size: 1rem;
-}
-.timeline {
-    position: relative;
-    padding-left: 40px;
-}
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 11px;
-    top: 8px;
-    bottom: 8px;
-    width: 2px;
-    background: linear-gradient(to bottom, var(--accent), rgba(242,183,5,0.1));
-}
-.tl-item {
-    position: relative;
-    padding-bottom: 40px;
-}
-.tl-item:last-child { padding-bottom: 0; }
-.tl-item::before {
-    content: '';
-    position: absolute;
-    left: -34px;
-    top: 6px;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 4px rgba(242,183,5,0.25);
-}
-.tl-year {
-    color: var(--accent-2);
-    font-weight: 800;
-    font-size: 1.2rem;
-    letter-spacing: -0.5px;
-    margin-bottom: 6px;
-}
-.tl-title {
-    color: #fff;
-    font-size: 1.05rem;
-    font-weight: 700;
-    margin-bottom: 6px;
-}
-.tl-desc {
-    color: #cbd5e1;
-    font-size: 0.94rem;
-    line-height: 1.7;
-}
+        .btn-outline { border: 1px solid rgba(255,255,255,.65); color: #fff; }
+        .btn-orange { background: var(--laranja); color: #241a0e; }
 
-/* ====================== KPIs ====================== */
-.kpis {
-    background: var(--bg-alt);
-    padding: 60px 24px;
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-}
-.kpis-grid {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 36px;
-}
-.kpi {
-    text-align: center;
-}
-.kpi .num {
-    font-size: clamp(1.9rem, 3.5vw, 2.6rem);
-    font-weight: 900;
-    color: var(--primary);
-    letter-spacing: -1px;
-    line-height: 1;
-    display: block;
-    margin-bottom: 8px;
-}
-.kpi .num .hl { color: var(--accent-dark); }
-.kpi .lbl {
-    font-size: 0.78rem;
-    color: var(--text-mute);
-    text-transform: uppercase;
-    letter-spacing: 1.4px;
-    font-weight: 700;
-}
+        .icon-whatsapp { width: 24px; height: 24px; flex-shrink: 0; }
 
-/* ====================== PRODUTOS ====================== */
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 26px;
-}
-.prod {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    overflow: hidden;
-    transition: all 0.3s;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.prod:hover {
-    box-shadow: var(--shadow-xl);
-    transform: translateY(-6px);
-    border-color: rgba(242,183,5,0.5);
-}
-.prod-img {
-    width: 100%;
-    aspect-ratio: 16 / 10;
-    overflow: hidden;
-    position: relative;
-}
-.prod-img img {
-    width: 100%; height: 100%; object-fit: cover;
-    transition: transform 0.5s;
-}
-.prod:hover .prod-img img { transform: scale(1.08); }
-.prod-img::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(10,34,64,0.35), transparent 60%);
-}
-.prod-body {
-    padding: 26px 24px 28px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-.prod-num {
-    font-size: 0.7rem;
-    font-weight: 800;
-    color: var(--accent-dark);
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    display: block;
-}
-.prod h4 {
-    color: var(--primary);
-    font-size: 1.06rem;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-.prod p {
-    color: var(--text-mute);
-    font-size: 0.9rem;
-    line-height: 1.7;
-    margin-bottom: 16px;
-    flex: 1;
-}
-.prod-spec {
-    padding-top: 14px;
-    border-top: 1px dashed var(--border);
-    font-size: 0.82rem;
-    color: var(--text-mute);
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-.prod-spec span {
-    display: flex;
-    gap: 6px;
-}
-.prod-spec span strong { color: var(--primary); font-weight: 600; }
+        /* Resumo */
+        .summary { background: var(--cinza-claro); padding: 30px 0; }
+        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 
-/* ====================== SERVIÇOS ====================== */
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
-}
-.service {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 34px 28px;
-    transition: all 0.3s;
-    position: relative;
-    overflow: hidden;
-}
-.service::after {
-    content: '';
-    position: absolute;
-    bottom: 0; right: 0;
-    width: 120px; height: 120px;
-    background: radial-gradient(circle, rgba(242,183,5,0.10), transparent 70%);
-    border-radius: 50%;
-    transition: all 0.4s;
-}
-.service:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    border-color: var(--accent);
-}
-.service:hover::after {
-    width: 200px; height: 200px;
-}
-.service-icon {
-    width: 52px; height: 52px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    color: var(--primary);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.3rem;
-    font-weight: 800;
-    margin-bottom: 18px;
-    position: relative;
-    z-index: 1;
-}
-.service h4 {
-    color: var(--primary);
-    font-size: 1.04rem;
-    margin-bottom: 10px;
-    font-weight: 700;
-    position: relative;
-    z-index: 1;
-}
-.service p {
-    color: var(--text-mute);
-    font-size: 0.91rem;
-    line-height: 1.75;
-    position: relative;
-    z-index: 1;
-}
+        .summary-item { padding-left: 18px; border-left: 3px solid var(--laranja); }
+        .summary-item span { display: block; color: #666; font-size: 12px; margin-bottom: 5px; }
+        .summary-item strong { font-size: 15px; }
+        .status { color: #176534; }
 
-/* ====================== DADOS CADASTRAIS ====================== */
-.cadastro-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-@media (max-width: 860px) { .cadastro-grid { grid-template-columns: 1fr; } }
+        /* Seções */
+        .section { padding: 64px 0; }
+        .section-light { background: var(--cinza-claro); }
 
-.cad-card {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 34px 30px;
-    box-shadow: var(--shadow-sm);
-    transition: all 0.3s;
-}
-.cad-card:hover { box-shadow: var(--shadow-md); }
-.cad-card h3 {
-    font-size: 1rem;
-    color: var(--primary);
-    margin-bottom: 22px;
-    padding-bottom: 14px;
-    border-bottom: 2px solid var(--accent);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-weight: 700;
-}
-.cad-card h3 .dot {
-    width: 8px; height: 8px;
-    background: var(--accent);
-    border-radius: 50%;
-}
-.data-list { list-style: none; }
-.data-list li {
-    padding: 14px 0;
-    border-bottom: 1px dashed var(--border);
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.data-list li:last-child { border-bottom: none; }
-.data-list .label {
-    color: var(--text-mute);
-    font-size: 0.71rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    flex-shrink: 0;
-}
-.data-list .value {
-    color: var(--primary);
-    font-weight: 600;
-    text-align: right;
-    font-size: 0.91rem;
-    word-break: break-word;
-}
-.badge-active {
-    background: rgba(16,185,129,0.12);
-    color: var(--success);
-    padding: 3px 12px;
-    border-radius: 50px;
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-}
+        .section-header { margin-bottom: 40px; text-align: center; }
+        .section-header h2 { font-size: clamp(25px, 3vw, 32px); color: var(--azul); margin-bottom: 10px; }
+        .section-header p { color: #666; max-width: 700px; margin: 0 auto; }
 
-.compliance {
-    margin-top: 36px;
-    padding: 26px 30px;
-    background: linear-gradient(135deg, #ecfdf5, #f0fdf4);
-    border-left: 5px solid var(--success);
-    border-radius: 12px;
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    box-shadow: var(--shadow-sm);
-}
-.compliance .shield {
-    font-size: 1.9rem;
-    flex-shrink: 0;
-    line-height: 1;
-}
-.compliance strong {
-    display: block;
-    color: var(--primary);
-    margin-bottom: 6px;
-    font-size: 1rem;
-    font-weight: 700;
-}
-.compliance p {
-    color: #4b5563;
-    font-size: 0.9rem;
-    line-height: 1.7;
-}
+        /* Imagem + texto */
+        .image-text-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 40px; align-items: center;
+        }
+        .image-text-grid img { border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.1); }
+        .image-text-content h3 { font-size: 24px; color: var(--azul); margin-bottom: 16px; }
+        .image-text-content p { color: #555; margin-bottom: 12px; font-size: 15px; }
 
-/* ====================== DEPOIMENTOS ====================== */
-.depo-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 24px;
-}
-.depo {
-    background: var(--white);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 32px 28px;
-    transition: all 0.3s;
-    position: relative;
-}
-.depo:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
-}
-.depo .quote-mark {
-    font-size: 2.8rem;
-    color: var(--accent);
-    line-height: 0.6;
-    font-weight: 900;
-    margin-bottom: 16px;
-    opacity: 0.4;
-}
-.depo p {
-    color: var(--text);
-    font-size: 0.94rem;
-    line-height: 1.8;
-    margin-bottom: 20px;
-    font-style: italic;
-}
-.depo .author {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    padding-top: 18px;
-    border-top: 1px solid var(--border);
-}
-.depo .avatar {
-    width: 42px; height: 42px;
-    background: linear-gradient(135deg, var(--primary), var(--primary-2));
-    color: var(--accent-2);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 800;
-    font-size: 0.92rem;
-    flex-shrink: 0;
-}
-.depo .author-info .name {
-    font-weight: 700;
-    color: var(--primary);
-    font-size: 0.9rem;
-    display: block;
-}
-.depo .author-info .role {
-    color: var(--text-mute);
-    font-size: 0.78rem;
-}
+        /* Cards */
+        .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+        .cards-2 { grid-template-columns: repeat(2, 1fr); }
+        .cards-4 { grid-template-columns: repeat(4, 1fr); }
 
-/* ====================== FAQ ====================== */
-.faq-wrap { max-width: 880px; margin: 0 auto; }
-.faq-item {
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    margin-bottom: 12px;
-    overflow: hidden;
-    transition: all 0.25s;
-}
-.faq-item[open] {
-    background: var(--white);
-    border-color: rgba(242,183,5,0.4);
-    box-shadow: var(--shadow-md);
-}
-.faq-item summary {
-    padding: 20px 26px;
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--primary);
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    font-size: 0.96rem;
-    transition: color 0.2s;
-}
-.faq-item summary:hover { color: var(--accent-dark); }
-.faq-item summary::-webkit-details-marker { display: none; }
-.faq-item summary::after {
-    content: '+';
-    font-size: 1.5rem;
-    color: var(--accent);
-    font-weight: 300;
-    flex-shrink: 0;
-    transition: transform 0.3s;
-    line-height: 1;
-}
-.faq-item[open] summary::after { transform: rotate(45deg); }
-.faq-item .faq-content {
-    padding: 0 26px 22px;
-    color: var(--text-mute);
-    font-size: 0.92rem;
-    line-height: 1.8;
-}
+        .card {
+            background: #fff; border-radius: 12px; padding: 28px;
+            border: 1px solid #e7e9ed; box-shadow: 0 5px 20px rgba(0,0,0,.04);
+            transition: transform .3s, box-shadow .3s;
+        }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
 
-/* ====================== CONTATO ====================== */
-.contato-grid {
-    display: grid;
-    grid-template-columns: 1fr 1.3fr;
-    gap: 32px;
-}
-@media (max-width: 880px) { .contato-grid { grid-template-columns: 1fr; } }
+        .card h3 { font-size: 17px; color: var(--azul); margin-bottom: 12px; }
+        .card p { font-size: 14px; color: #555; }
 
-.contato-info {
-    background: linear-gradient(160deg, var(--primary), var(--primary-2));
-    color: #fff;
-    padding: 42px 36px;
-    border-radius: 18px;
-    position: relative;
-    overflow: hidden;
-}
-.contato-info::before {
-    content: '';
-    position: absolute;
-    top: -60px; right: -60px;
-    width: 240px; height: 240px;
-    background: radial-gradient(circle, rgba(184,115,51,0.30), transparent 70%);
-    border-radius: 50%;
-}
-.contato-info h3 {
-    font-size: 1.18rem;
-    margin-bottom: 28px;
-    position: relative;
-    font-weight: 700;
-}
-.c-item {
-    display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
-    align-items: flex-start;
-    position: relative;
-}
-.c-item:last-child { margin-bottom: 0; }
-.c-item .ico {
-    width: 42px; height: 42px;
-    background: rgba(242,183,5,0.16);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.05rem;
-    flex-shrink: 0;
-}
-.c-item .k {
-    display: block;
-    font-size: 0.68rem;
-    text-transform: uppercase;
-    letter-spacing: 1.4px;
-    opacity: 0.6;
-    margin-bottom: 5px;
-    font-weight: 700;
-}
-.c-item .v, .c-item a {
-    color: #fff;
-    font-size: 0.92rem;
-    text-decoration: none;
-    word-break: break-word;
-    font-weight: 500;
-    line-height: 1.55;
-}
-.c-item a:hover { color: var(--accent-2); }
+        .card .value { color: var(--azul); font-size: 18px; font-weight: 600; }
+        .card .status { color: #176534; }
+        .card .code { color: #a45400; font-size: 19px; font-weight: 700; margin-bottom: 6px; }
 
-.contato-form {
-    background: var(--white);
-    padding: 42px 38px;
-    border-radius: 18px;
-    border: 1px solid var(--border);
-    box-shadow: var(--shadow-sm);
-}
-.contato-form h3 {
-    font-size: 1.18rem;
-    color: var(--primary);
-    margin-bottom: 26px;
-    font-weight: 700;
-}
-.fg { margin-bottom: 18px; }
-.fg label {
-    display: block;
-    font-size: 0.79rem;
-    font-weight: 600;
-    color: var(--primary);
-    margin-bottom: 8px;
-    letter-spacing: 0.2px;
-}
-.fg input, .fg textarea, .fg select {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1.5px solid var(--border);
-    border-radius: 10px;
-    font-family: inherit;
-    font-size: 0.92rem;
-    transition: all 0.2s;
-    background: var(--bg);
-    color: var(--text);
-}
-.fg input:focus, .fg textarea:focus, .fg select:focus {
-    outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 0 4px rgba(242,183,5,0.12);
-    background: #fff;
-}
-.fg textarea { min-height: 120px; resize: vertical; }
-.fg-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-}
-@media (max-width: 520px) { .fg-row { grid-template-columns: 1fr; } }
-.submit {
-    width: 100%;
-    background: var(--accent);
-    color: var(--primary);
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    font-size: 0.96rem;
-    font-weight: 800;
-    cursor: pointer;
-    transition: all 0.25s;
-    font-family: inherit;
-    letter-spacing: 0.3px;
-    box-shadow: 0 10px 24px rgba(242,183,5,0.35);
-}
-.submit:hover {
-    background: var(--accent-2);
-    transform: translateY(-2px);
-    box-shadow: 0 14px 30px rgba(242,183,5,0.5);
-}
+        .card-icon {
+            width: 48px; height: 48px;
+            background: linear-gradient(135deg, var(--azul), var(--azul-claro));
+            border-radius: 10px; display: flex; align-items: center;
+            justify-content: center; margin-bottom: 16px; color: #fff;
+        }
+        .card-icon svg { width: 24px; height: 24px; }
 
-/* ====================== CTA BAND ====================== */
-.cta-band {
-    background: linear-gradient(135deg, var(--primary), var(--primary-2));
-    color: #fff;
-    padding: 70px 24px;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-.cta-band::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(circle at 20% 30%, rgba(242,183,5,0.16), transparent 45%),
-        radial-gradient(circle at 80% 70%, rgba(184,115,51,0.16), transparent 45%);
-}
-.cta-band-inner { position: relative; max-width: 780px; margin: 0 auto; }
-.cta-band h2 {
-    font-size: clamp(1.55rem, 3vw, 2.1rem);
-    font-weight: 800;
-    letter-spacing: -0.6px;
-    margin-bottom: 14px;
-}
-.cta-band p {
-    color: #cbd5e1;
-    margin-bottom: 28px;
-    font-size: 1rem;
-    line-height: 1.75;
-}
+        /* Galeria */
+        .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+        .gallery img {
+            width: 100%; height: 220px; object-fit: cover;
+            border-radius: 10px; transition: transform .3s, box-shadow .3s;
+        }
+        .gallery img:hover { transform: scale(1.03); box-shadow: 0 10px 30px rgba(0,0,0,.15); }
 
-/* ====================== FOOTER ====================== */
-footer {
-    background: #061729;
-    color: #94a3b8;
-    padding: 64px 24px 0;
-    font-size: 0.88rem;
-}
-.footer-grid {
-    max-width: 1240px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1.4fr;
-    gap: 36px;
-    padding-bottom: 50px;
-}
-@media (max-width: 1000px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 520px) { .footer-grid { grid-template-columns: 1fr; } }
+        /* Endereço */
+        .address-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 
-.f-brand .logo {
-    font-size: 1.25rem;
-    font-weight: 800;
-    color: #fff;
-    margin-bottom: 14px;
-    letter-spacing: -0.4px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.f-brand .logo span { color: var(--accent); }
-.f-brand p {
-    line-height: 1.8;
-    font-size: 0.85rem;
-    margin-bottom: 14px;
-}
-.f-brand .cnpj-box {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 8px;
-    padding: 10px 14px;
-    display: inline-block;
-    font-size: 0.78rem;
-    color: #cbd5e1;
-    margin-top: 8px;
-}
-.f-brand .cnpj-box strong { color: var(--accent); }
+        .address-list {
+            display: grid; grid-template-columns: auto 1fr;
+            gap: 10px 20px; font-size: 14px;
+        }
+        .address-list dt { font-weight: 600; }
+        .address-list dd { color: #555; }
 
-.f-col h4 {
-    color: #fff;
-    font-size: 0.78rem;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-    letter-spacing: 1.6px;
-    font-weight: 700;
-}
-.f-col ul { list-style: none; }
-.f-col li { margin-bottom: 10px; line-height: 1.6; }
-.f-col a {
-    color: #94a3b8;
-    text-decoration: none;
-    transition: color 0.2s;
-    font-size: 0.85rem;
-}
-.f-col a:hover { color: var(--accent); }
-.f-col p { font-size: 0.85rem; line-height: 1.8; }
-.f-col p strong { color: #cbd5e1; }
+        address { font-style: normal; line-height: 1.9; margin-bottom: 22px; }
 
-.footer-bottom {
-    border-top: 1px solid rgba(255,255,255,0.08);
-    padding: 24px 24px;
-    text-align: center;
-    font-size: 0.78rem;
-    color: #64748b;
-    max-width: 1240px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 18px;
-    flex-wrap: wrap;
-}
-.footer-bottom .links a {
-    color: #94a3b8;
-    text-decoration: none;
-    margin: 0 10px;
-}
-.footer-bottom .links a:hover { color: var(--accent); }
+        /* Contato */
+        .contact { text-align: center; }
+        .contact p { color: #666; margin-bottom: 22px; }
+        .contact-number { display: block; margin-top: 14px; font-size: 18px; font-weight: 600; }
 
-/* ====================== WHATSAPP ====================== */
-.wa {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    width: 56px;
-    height: 56px;
-    background: #25d366;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.45rem;
-    box-shadow: 0 10px 28px rgba(37,211,102,0.5);
-    text-decoration: none;
-    z-index: 999;
-    transition: transform 0.3s;
-}
-.wa:hover { transform: scale(1.1) rotate(6deg); }
+        /* Rodapé */
+        .footer { background: var(--azul); color: #fff; padding: 44px 0 135px; }
+        .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+        .footer h3 { font-size: 18px; margin-bottom: 12px; }
+        .footer p { color: #c9cbd4; font-size: 13px; margin-bottom: 8px; }
+        .footer a { color: #f9ae56; }
+        .footer-note { border-top: 1px solid rgba(255,255,255,.15); margin-top: 28px; padding-top: 20px; }
 
-/* ====================== RESPONSIVO ====================== */
-@media (max-width: 720px) {
-    .nav-links { display: none; }
-    .hero { padding: 60px 20px 70px; }
-    section.block { padding: 60px 20px; }
-    .hero-stats { grid-template-columns: 1fr 1fr; }
-    .contato-form { padding: 30px 22px; }
-    .contato-info { padding: 30px 24px; }
-    .cad-card { padding: 26px 20px; }
-    .compliance { padding: 20px; flex-direction: column; gap: 12px; }
-    .footer-bottom { justify-content: center; text-align: center; }
-    .about-visual { padding: 30px 24px; }
-    .about-img { aspect-ratio: 16/9; }
-    .timeline { padding-left: 32px; }
-    .timeline::before { left: 8px; }
-    .tl-item::before { left: -30px; width: 16px; height: 16px; }
-}
-</style>
+        /* WhatsApp flutuante */
+        .floating-whatsapp {
+            position: fixed; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+            z-index: 1100; max-width: calc(100vw - 40px);
+            display: flex; align-items: center; gap: 12px;
+            background: var(--verde); color: #073b1c;
+            border: 3px solid #fff; padding: 14px 22px; border-radius: 40px;
+            box-shadow: 0 6px 24px rgba(0,0,0,.25);
+            font-size: 16px; font-weight: 700; line-height: 1.4;
+        }
+        .floating-whatsapp:hover { background: #20c760; }
+        .floating-whatsapp .icon-whatsapp { width: 32px; height: 32px; }
+        .floating-whatsapp small { display: block; font-size: 13px; font-weight: 600; }
+
+        /* Acessibilidade */
+        a:focus-visible, button:focus-visible { outline: 3px solid var(--laranja); outline-offset: 4px; }
+        .skip-link {
+            position: fixed; top: -80px; left: 12px; z-index: 1200;
+            background: #fff; padding: 12px;
+        }
+        .skip-link:focus { top: 12px; }
+
+        /* Responsivo */
+        @media (max-width: 900px) {
+            .nav-menu { gap: 14px; }
+            .nav-menu a { font-size: 11px; }
+            .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            .cards, .cards-4 { grid-template-columns: repeat(2, 1fr); }
+            .gallery { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 768px) {
+            .header-main { min-height: 76px; }
+            .logo strong { font-size: 18px; }
+            .mobile-menu-btn { display: block; }
+
+            .nav-menu {
+                display: none; position: absolute; top: 100%;
+                left: 0; right: 0; padding: 22px 5%; background: var(--azul);
+                flex-direction: column; align-items: stretch; gap: 14px;
+            }
+            .nav-menu.active { display: flex; }
+            .nav-menu a { display: block; padding: 6px 0; font-size: 14px; }
+
+            .hero { margin-top: 76px; padding: 55px 0; }
+            .hero .intro { font-size: 15px; }
+
+            .section { padding: 44px 0; }
+
+            .image-text-grid, .address-grid, .footer-grid,
+            .cards, .cards-2, .cards-4, .gallery { grid-template-columns: 1fr; }
+
+            .card { padding: 22px; }
+        }
+
+        @media (max-width: 420px) {
+            .summary-grid { grid-template-columns: 1fr; }
+            .hero-actions .btn { width: 100%; }
+            .address-list { grid-template-columns: 1fr; gap: 4px; }
+            .address-list dd { margin-bottom: 8px; }
+            .floating-whatsapp { right: 12px; padding: 12px 16px; font-size: 15px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            .btn, .card, .gallery img { transition: none; }
+            .btn:hover, .card:hover, .gallery img:hover { transform: none; }
+        }
+    </style>
 </head>
+
 <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-<!-- ====================== TOPBAR ====================== -->
-<div class="topbar">
-    <span>📍 <strong>Guarulhos / SP</strong> — atendimento em todo o Brasil</span>
-    <span class="dot">•</span>
-    <span>CNPJ: <strong>61.310.256/0001-90</strong></span>
-    <span class="dot">•</span>
-    <span>Situação: <strong style="color:#4ade80;">Ativa</strong></span>
-    <span class="dot">•</span>
-    <a href="#contato">Solicitar orçamento →</a>
-</div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute">
+        <symbol id="whatsapp-icon" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </symbol>
+    </svg>
 
-<!-- ====================== NAVBAR COM SUBMENU ====================== -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="#" class="brand">
-            <div class="brand-mark">SIL</div>
-            <div class="brand-text">
-                <div class="name">SIL Cabos Elétricos</div>
-                <div class="tag">Fios · Cabos · Condutores</div>
-            </div>
-        </a>
-        <ul class="nav-links">
-            <li><a href="#sobre">Sobre</a></li>
-            <li>
-                <a href="#produtos">Produtos ▾</a>
-                <ul class="submenu">
-                    <li><a href="#produtos">Fios Elétricos</a></li>
-                    <li><a href="#produtos">Cabos de Potência</a></li>
-                    <li><a href="#produtos">Cabos Flexíveis</a></li>
-                    <li><a href="#produtos">Condutores Especiais</a></li>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container header-main">
+            <a href="#inicio" class="logo" aria-label="Cobresul Metais — início">
+                <strong>COBRESUL</strong>
+                <span>TUBOS DE COBRE</span>
+            </a>
+
+            <nav aria-label="Menu principal">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#empresa">EMPRESA</a></li>
+                    <li><a href="#produtos">PRODUTOS</a></li>
+                    <li><a href="#diferenciais">DIFERENCIAIS</a></li>
+                    <li><a href="#dados">DADOS</a></li>
+                    <li><a href="#endereco">ENDEREÇO</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                    <li>
+                        <a class="nav-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">
+                            WHATSAPP
+                        </a>
+                    </li>
                 </ul>
-            </li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#cadastro">Dados Cadastrais</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#contato" class="nav-cta">Contato</a></li>
-        </ul>
-    </div>
-</nav>
+            </nav>
 
-<!-- ====================== BREADCRUMB ====================== -->
-<div class="breadcrumb-bar">
-    <div class="breadcrumb-inner">
-        <a href="#">Home</a>
-        <span>/</span>
-        <span>Institucional</span>
-        <span>/</span>
-        <strong style="color:var(--primary);">SIL Cabos Elétricos</strong>
-    </div>
-</div>
-
-<!-- ====================== HERO ====================== -->
-<section class="hero">
-    <div class="hero-bg">
-        <img src="https://images.unsplash.com/photo-1611095973763-414019e72400?auto=format&fit=crop&w=1920&q=80" alt="Bobinas de cabos elétricos de cobre">
-    </div>
-    <div class="hero-inner">
-        <div>
-            <span class="hero-badge">Indústria registrada desde 1968</span>
-            <h1>Fabricação de <span class="hl">fios, cabos e condutores</span> com qualidade industrial.</h1>
-            <p class="lead">
-                A <strong>SIL Cabos Elétricos</strong> (Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda.)
-                atua há mais de cinco décadas na fabricação de fios, cabos e condutores elétricos isolados, atendendo indústrias,
-                distribuidores e profissionais em Guarulhos/SP e em todo o Brasil.
-            </p>
-            <div class="hero-actions">
-                <a href="#contato" class="btn btn-primary">Solicitar Orçamento →</a>
-                <a href="#produtos" class="btn btn-ghost">Ver Produtos</a>
-            </div>
-            <div class="hero-stats">
-                <div class="hero-stat">
-                    <div class="num">1968</div>
-                    <span class="lbl">Fundação</span>
-                </div>
-                <div class="hero-stat">
-                    <div class="num">+55</div>
-                    <span class="lbl">Anos de Experiência</span>
-                </div>
-                <div class="hero-stat">
-                    <div class="num">SP</div>
-                    <span class="lbl">Guarulhos / SP</span>
-                </div>
-            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" type="button" aria-label="Abrir menu" aria-controls="navMenu" aria-expanded="false">☰</button>
         </div>
+    </header>
 
-        <div class="hero-card">
-            <h3>◆ Dados Oficiais da Empresa</h3>
-            <div class="hero-card-item">
-                <div class="ico">🏢</div>
-                <div>
-                    <div class="k">Razão Social</div>
-                    <div class="v">Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda.</div>
-                </div>
-            </div>
-            <div class="hero-card-item">
-                <div class="ico">📄</div>
-                <div>
-                    <div class="k">CNPJ</div>
-                    <div class="v">61.310.256/0001-90</div>
-                </div>
-            </div>
-            <div class="hero-card-item">
-                <div class="ico">⚡</div>
-                <div>
-                    <div class="k">Atividade Principal (CNAE)</div>
-                    <div class="v">27.33-3-00 — Fabricação de fios, cabos e condutores elétricos isolados</div>
-                </div>
-            </div>
-            <div class="hero-card-item">
-                <div class="ico">📍</div>
-                <div>
-                    <div class="k">Sede</div>
-                    <div class="v">Guarulhos — São Paulo</div>
-                </div>
-            </div>
-            <div class="hero-card-item">
-                <div class="ico">✓</div>
-                <div>
-                    <div class="k">Situação Cadastral</div>
-                    <div class="v" style="color:#4ade80;">Ativa na Receita Federal</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== STRIP ====================== -->
-<div class="strip">
-    <div class="strip-inner">
-        <div class="strip-item">Indústria Própria</div>
-        <div class="strip-item">CNPJ Ativo</div>
-        <div class="strip-item">Cobre de Alta Pureza</div>
-        <div class="strip-item">Qualidade Certificada</div>
-        <div class="strip-item">Desde 1968</div>
-    </div>
-</div>
-
-<!-- ====================== SOBRE ====================== -->
-<section class="block" id="sobre">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Sobre a Empresa</span>
-            <h2>Mais de 55 anos fabricando cabos elétricos com excelência</h2>
-            <p>Fundada em 25 de outubro de 1968, a Elétrica Danúbio construiu sua reputação com base em fabricação própria, rigor técnico e compromisso com a qualidade de fios, cabos e condutores elétricos isolados.</p>
-        </div>
-
-        <div class="about-2col">
-            <div>
-                <h2>Indústria consolidada, matéria-prima nobre e tecnologia aplicada.</h2>
-                <p>
-                    Trabalhamos com cobre de alta pureza e materiais isolantes de qualidade industrial, seguindo normas técnicas rigorosas em todas as etapas de fabricação — do trefilamento à isolação e ao ensaio final.
+    <main id="conteudo">
+        <!-- Hero -->
+        <section class="hero" id="inicio">
+            <div class="container">
+                <p class="eyebrow">Joinville · Santa Catarina</p>
+                <h1>Cobresul Metais</h1>
+                <p class="intro">
+                    Fabricante de tubos de cobre sem costura para refrigeração, ar condicionado,
+                    aquecimento e construção civil. Tecnologia Cast & Roll, qualidade certificada
+                    e capacidade produtiva integrada ao Grupo Plasinco.
                 </p>
-                <p>
-                    Nossa operação é pautada pela transparência comercial e pelo cumprimento rigoroso da legislação vigente, incluindo as políticas de transparência exigidas por plataformas de publicidade digital.
+                <div class="hero-actions">
+                    <a class="btn btn-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">
+                        <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
+                        Solicitar Orçamento
+                    </a>
+                    <a class="btn btn-outline" href="#produtos">Conhecer Produtos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resumo cadastral -->
+        <section class="summary" aria-label="Resumo cadastral">
+            <div class="container summary-grid">
+                <div class="summary-item">
+                    <span>CNPJ</span>
+                    <strong>09.652.146/0001-96</strong>
+                </div>
+                <div class="summary-item">
+                    <span>Fundação</span>
+                    <strong>20/06/2008</strong>
+                </div>
+                <div class="summary-item">
+                    <span>Município / UF</span>
+                    <strong>Joinville / SC</strong>
+                </div>
+                <div class="summary-item">
+                    <span>Situação cadastral</span>
+                    <strong class="status">Ativa</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section class="section" id="empresa">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Sobre a Cobresul Metais</h2>
+                    <p>Parte do Grupo Plasinco, com mais de 40 anos de experiência no setor de metais.</p>
+                </div>
+
+                <div class="image-text-grid">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Tubos de cobre industriais">
+                    <div class="image-text-content">
+                        <h3>Qualidade em tubos de cobre desde 2008</h3>
+                        <p>A <strong>Cobresul Metais LTDA</strong>, CNPJ <strong>09.652.146/0001-96</strong>, foi fundada em <strong>20/06/2008</strong> e está sediada em <strong>Joinville, Santa Catarina</strong> [citation:6][citation:10].</p>
+                        <p>Sua atividade principal é a <strong>metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente</strong> (CNAE 24.49-1-99), com foco na <strong>produção e comercialização de tubos de cobre</strong> destinados aos segmentos de refrigeração, ar condicionado e construção civil [citation:1][citation:5].</p>
+                        <p>A empresa faz parte do <strong>Grupo Plasinco</strong>, que conta com mais de 40 anos de atividade e capacidade instalada de <strong>220.000 toneladas anuais</strong> de semimanufaturados de cobre [citation:1][citation:7].</p>
+                        <p>A unidade industrial em Joinville ocupa uma área de <strong>80.000 m²</strong>, com <strong>15.000 m²</strong> de área construída [citation:1][citation:9].</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produtos -->
+        <section class="section section-light" id="produtos">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nossos Produtos</h2>
+                    <p>Linha completa de tubos de cobre sem costura para diversas aplicações industriais.</p>
+                </div>
+
+                <div class="cards cards-4">
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM5 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zM19 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5z"/></svg>
+                        </div>
+                        <h3>Tubos Classe</h3>
+                        <p>Tubos de cobre para instalações de água, gás e aplicações gerais na construção civil.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+                        </div>
+                        <h3>Tubos Solar</h3>
+                        <p>Tubos de cobre desenvolvidos para sistemas de aquecimento solar e energia térmica.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
+                        </div>
+                        <h3>Bobinas e Carretéis</h3>
+                        <p>Tubos flexíveis em bobinas para refrigeração, ar condicionado e trocadores de calor [citation:3].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                        </div>
+                        <h3>Tubos Retos sem Costura</h3>
+                        <p>Tubos retos com diâmetros e espessuras homogêneas, produzidos pela tecnologia Cast & Roll.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <h3>Tubos Gás</h3>
+                        <p>Tubos de cobre específicos para instalações de gás, com segurança e conformidade técnica.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+                        </div>
+                        <h3>Tubos Ranhurados</h3>
+                        <p>Tubos com ranhuras para aplicações específicas em sistemas de troca térmica.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                        </div>
+                        <h3>Tubos Panqueca</h3>
+                        <p>Tubos de cobre em formato de panqueca para aplicações de refrigeração e climatização.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
+                        </div>
+                        <h3>Soluções Personalizadas</h3>
+                        <p>Desenvolvimento de produtos conforme a necessidade específica de cada cliente.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diferenciais -->
+        <section class="section" id="diferenciais">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Por que escolher a Cobresul</h2>
+                    <p>Diferenciais que consolidam a empresa como referência em tubos de cobre.</p>
+                </div>
+
+                <div class="cards cards-3">
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                        </div>
+                        <h3>Certificação ISO 9001</h3>
+                        <p>Sistema de Gestão da Qualidade certificado pela Bureau Veritas para produção de tubos de cobre [citation:5].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+                        </div>
+                        <h3>Tecnologia Cast & Roll</h3>
+                        <p>Linha de produção integrada de fundição, laminação e trefilação, gerando tubos sem costura com alta homogeneidade [citation:1].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
+                        </div>
+                        <h3>Grupo Plasinco</h3>
+                        <p>Parte de grupo com mais de 40 anos de experiência e capacidade instalada de 220.000 toneladas/ano [citation:1].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        </div>
+                        <h3>Localização Estratégica</h3>
+                        <p>Unidade industrial em Joinville, SC, com 80.000 m² de área total e logística para o mercado nacional e exportação [citation:9].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1c-1.3 0-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm2 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                        </div>
+                        <h3>Laboratório Próprio</h3>
+                        <p>Laboratório técnico completo para ensaios e análises, garantindo conformidade com normas ABNT e ASTM [citation:12].</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                        </div>
+                        <h3>Equipe Especializada</h3>
+                        <p>Engenheiros e técnicos capacitados para desenvolver soluções inovadoras para cada desafio [citation:9].</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section class="section section-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nosso Universo</h2>
+                    <p>Imagens que representam a produção de tubos de cobre e o ambiente industrial.</p>
+                </div>
+
+                <div class="gallery">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Tubos de cobre">
+                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=400&fit=crop" alt="Processo industrial">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Bobinas de cobre">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Indústria metalúrgica">
+                    <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600&h=400&fit=crop" alt="Equipamentos industriais">
+                    <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&h=400&fit=crop" alt="Estrutura metálica">
+                </div>
+            </div>
+        </section>
+
+        <!-- Dados cadastrais -->
+        <section class="section" id="dados">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dados cadastrais</h2>
+                    <p>Informações oficiais da Cobresul Metais LTDA.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card">
+                        <h3>Identificação</h3>
+                        <p class="value">Cobresul Metais</p>
+                        <p>Razão social: Cobresul Metais LTDA</p>
+                        <p>CNPJ: 09.652.146/0001-96</p>
+                        <p>Fundação: 20/06/2008</p>
+                        <p>Natureza jurídica: Sociedade Empresária Limitada</p>
+                        <p>Capital social: R$ 170.000.000,00</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Atividade principal</h3>
+                        <p class="code">24.49-1-99</p>
+                        <p>Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente.</p>
+                        <p><strong>Atividades secundárias:</strong> metalurgia do cobre; coleta e recuperação de materiais metálicos; comércio atacadista de materiais de construção [citation:6].</p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Situação cadastral</h3>
+                        <p class="value status">Ativa</p>
+                        <p>Município: Joinville</p>
+                        <p>Estado: Santa Catarina</p>
+                        <p>Porte: Demais</p>
+                        <p>Grupo econômico: Grupo Plasinco</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Endereço -->
+        <section class="section section-light" id="endereco">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Endereço</h2>
+                    <p>Localização da unidade industrial e dados para correspondência.</p>
+                </div>
+
+                <div class="address-grid">
+                    <article class="card">
+                        <h3>Localização</h3>
+                        <dl class="address-list">
+                            <dt>Logradouro</dt>
+                            <dd>Rua Jorge Cecyn, 260</dd>
+                            <dt>Bairro</dt>
+                            <dd>Distrito Industrial Norte</dd>
+                            <dt>CEP</dt>
+                            <dd>89219-625</dd>
+                            <dt>Município</dt>
+                            <dd>Joinville</dd>
+                            <dt>Estado</dt>
+                            <dd>Santa Catarina</dd>
+                            <dt>Telefone</dt>
+                            <dd>(47) 3435-0322 [citation:4]</dd>
+                        </dl>
+                    </article>
+
+                    <article class="card">
+                        <h3>Para correspondência</h3>
+                        <address>
+                            <strong>Cobresul Metais LTDA</strong><br>
+                            Rua Jorge Cecyn, 260<br>
+                            Distrito Industrial Norte<br>
+                            Joinville — SC<br>
+                            CEP: 89219-625<br>
+                            Brasil
+                        </address>
+                        <a class="btn btn-orange" href="https://www.google.com/maps/search/?api=1&query=Rua+Jorge+Cecyn+260+Distrito+Industrial+Norte+Joinville+SC+89219-625" target="_blank" rel="noopener noreferrer">
+                            Ver no mapa
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="section contact" id="contato">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Fale Conosco</h2>
+                </div>
+                <p>Solicite um orçamento ou tire suas dúvidas sobre nossos tubos de cobre pelo WhatsApp.</p>
+                <a class="btn btn-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">
+                    <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
+                    Entrar em contato
+                </a>
+                <span class="contact-number">(11) 91861-8745</span>
+                <p style="margin-top: 12px; font-size: 14px; color: #888;">
+                    Telefone fixo da fábrica: (47) 3435-0322 [citation:4]
                 </p>
-
-                <ul class="about-list">
-                    <li><span class="check">✓</span> CNPJ ativo e regular na Receita Federal do Brasil</li>
-                    <li><span class="check">✓</span> Atividade principal registrada sob CNAE 27.33-3-00</li>
-                    <li><span class="check">✓</span> Indústria própria de fios, cabos e condutores elétricos isolados</li>
-                    <li><span class="check">✓</span> Utilização de cobre e materiais isolantes de alta qualidade</li>
-                    <li><span class="check">✓</span> Atendimento a indústrias e distribuidores em todo o Brasil</li>
-                </ul>
             </div>
+        </section>
+    </main>
 
-            <div class="about-img">
-                <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80" alt="Rolos de fios de cobre para fabricação de cabos elétricos">
-                <div class="overlay-badge">
-                    <strong>Matéria-prima</strong>
-                    <span>Cobre de alta pureza</span>
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Cobresul Metais</h3>
+                    <p>Cobresul Metais LTDA</p>
+                    <p>CNPJ: 09.652.146/0001-96</p>
+                    <p>Fundação: 20/06/2008</p>
+                    <p>Atividade: 24.49-1-99 — Metalurgia de outros metais não-ferrosos e suas ligas não especificados anteriormente.</p>
+                    <p>Grupo: Plasinco</p>
                 </div>
+                <div>
+                    <h3>Endereço e contato</h3>
+                    <p>Rua Jorge Cecyn, 260 — Distrito Industrial Norte</p>
+                    <p>Joinville — Santa Catarina — CEP: 89219-625</p>
+                    <p>Telefone: (47) 3435-0322</p>
+                    <p><a href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 91861-8745</a></p>
+                </div>
+            </div>
+            <div class="footer-note">
+                <p>Informações cadastrais apresentadas conforme dados públicos da Receita Federal e site oficial da empresa.</p>
             </div>
         </div>
-    </div>
-</section>
+    </footer>
 
-<!-- ====================== TIMELINE ====================== -->
-<section class="timeline-section">
-    <div class="timeline-inner">
-        <div class="timeline-head">
-            <span class="eyebrow">Nossa Trajetória</span>
-            <h2>Mais de cinco décadas de história</h2>
-            <p>Uma trajetória construída com consistência, tradição industrial e compromisso com a qualidade.</p>
-        </div>
+    <!-- WhatsApp fixo -->
+    <a class="floating-whatsapp" href="https://wa.me/5511918618745" target="_blank" rel="noopener noreferrer" aria-label="Falar no WhatsApp: (11) 91861-8745">
+        <svg class="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true"><use href="#whatsapp-icon"></use></svg>
+        <span>
+            Falar no WhatsApp
+            <small>(11) 91861-8745</small>
+        </span>
+    </a>
 
-        <div class="timeline">
-            <div class="tl-item">
-                <div class="tl-year">1968</div>
-                <div class="tl-title">Fundação da Elétrica Danúbio</div>
-                <div class="tl-desc">Início das operações em São Paulo, com foco na fabricação de fios e condutores elétricos.</div>
-            </div>
-            <div class="tl-item">
-                <div class="tl-year">Anos 1980</div>
-                <div class="tl-title">Expansão da linha de produção</div>
-                <div class="tl-desc">Ampliação do portfólio com cabos de potência e flexíveis para o mercado industrial.</div>
-            </div>
-            <div class="tl-item">
-                <div class="tl-year">Anos 2000</div>
-                <div class="tl-title">Modernização industrial</div>
-                <div class="tl-desc">Investimento em tecnologia de trefilamento e isolação, elevando o padrão de qualidade.</div>
-            </div>
-            <div class="tl-item">
-                <div class="tl-year">Hoje</div>
-                <div class="tl-title">Consolidação no mercado nacional</div>
-                <div class="tl-desc">Atendimento a indústrias e distribuidores em todo o Brasil, com foco em qualidade e confiabilidade.</div>
-            </div>
-        </div>
-    </div>
-</section>
+    <script>
+        const menuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
 
-<!-- ====================== KPIs ====================== -->
-<section class="kpis">
-    <div class="kpis-grid">
-        <div class="kpi">
-            <span class="num">+55<span class="hl"> anos</span></span>
-            <span class="lbl">De Atuação</span>
-        </div>
-        <div class="kpi">
-            <span class="num">100<span class="hl">%</span></span>
-            <span class="lbl">Fabricação Própria</span>
-        </div>
-        <div class="kpi">
-            <span class="num">NBR</span>
-            <span class="lbl">Normas Técnicas</span>
-        </div>
-        <div class="kpi">
-            <span class="num">BR<span class="hl"> nacional</span></span>
-            <span class="lbl">Atendimento</span>
-        </div>
-    </div>
-</section>
+        function setMenu(open) {
+            navMenu.classList.toggle('active', open);
+            menuBtn.setAttribute('aria-expanded', String(open));
+            menuBtn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+        }
 
-<!-- ====================== GALERIA COBRE & METAIS ====================== -->
-<section class="block" id="galeria">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Cobre & Metais</span>
-            <h2>Matéria-prima de qualidade em cada etapa</h2>
-            <p>Selecionamos cobre e materiais metálicos de alta pureza, garantindo condutividade, durabilidade e desempenho superior em cada cabo fabricado.</p>
-        </div>
+        menuBtn.addEventListener('click', () => {
+            const open = menuBtn.getAttribute('aria-expanded') !== 'true';
+            setMenu(open);
+        });
 
-        <div class="gallery">
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1611080626919-7cf5a9dbab12?auto=format&fit=crop&w=900&q=80" alt="Fios de cobre enrolados">
-                <div class="cap">
-                    <strong>Cobre Trefilado</strong>
-                    <span>Alta condutividade elétrica</span>
-                </div>
-            </div>
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80" alt="Bobinas industriais de cabos">
-                <div class="cap">
-                    <strong>Bobinas Industriais</strong>
-                    <span>Produção em escala</span>
-                </div>
-            </div>
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=900&q=80" alt="Fios e cabos elétricos coloridos">
-                <div class="cap">
-                    <strong>Cabos Isolados</strong>
-                    <span>Isolação de alta performance</span>
-                </div>
-            </div>
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1581092918484-8313d3d3f3fb?auto=format&fit=crop&w=900&q=80" alt="Equipamentos industriais metalúrgicos">
-                <div class="cap">
-                    <strong>Processo Industrial</strong>
-                    <span>Tecnologia e precisão</span>
-                </div>
-            </div>
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=900&q=80" alt="Metais e ligas metálicas">
-                <div class="cap">
-                    <strong>Metais Nobres</strong>
-                    <span>Cobre e ligas de qualidade</span>
-                </div>
-            </div>
-            <div class="gal-item">
-                <img src="https://images.unsplash.com/photo-1613521140785-e85e9b9c3e3e?auto=format&fit=crop&w=900&q=80" alt="Rolos de cabos elétricos enrolados">
-                <div class="cap">
-                    <strong>Condutores Elétricos</strong>
-                    <span>Para todas as aplicações</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => setMenu(false));
+        });
 
-<!-- ====================== DIFERENCIAIS ====================== -->
-<section class="block alt">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Nossos Diferenciais</span>
-            <h2>Por que escolher a SIL Cabos Elétricos</h2>
-            <p>Combinamos tradição industrial, matéria-prima nobre e tecnologia aplicada para entregar fios e cabos com qualidade e confiabilidade.</p>
-        </div>
-
-        <div class="features">
-            <div class="feat">
-                <div class="feat-icon">✓</div>
-                <h3>Empresa Verificada</h3>
-                <p>CNPJ ativo na Receita Federal, com dados cadastrais públicos, transparentes e em conformidade com a legislação vigente.</p>
-            </div>
-            <div class="feat">
-                <div class="feat-icon">⚡</div>
-                <h3>Fabricação Própria</h3>
-                <p>Controle direto de qualidade em todas as etapas: trefilamento, isolação, cobertura e ensaio final dos cabos.</p>
-            </div>
-            <div class="feat">
-                <div class="feat-icon">🥇</div>
-                <h3>Cobre de Alta Pureza</h3>
-                <p>Utilização de cobre e materiais isolantes de qualidade industrial para máxima condutividade e durabilidade.</p>
-            </div>
-            <div class="feat">
-                <div class="feat-icon">↺</div>
-                <h3>Mais de 55 Anos</h3>
-                <p>Tradição industrial consolidada desde 1968, com experiência no fornecimento de cabos para diferentes segmentos.</p>
-            </div>
-            <div class="feat">
-                <div class="feat-icon">📐</div>
-                <h3>Normas Técnicas</h3>
-                <p>Fabricação em conformidade com normas técnicas e especificações exigidas pelo mercado elétrico brasileiro.</p>
-            </div>
-            <div class="feat">
-                <div class="feat-icon">🚚</div>
-                <h3>Atendimento Nacional</h3>
-                <p>Logística estruturada para atender indústrias, distribuidores e profissionais em todo o Brasil.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== PRODUTOS ====================== -->
-<section class="block" id="produtos">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Nossos Produtos</span>
-            <h2>Fabricação de fios, cabos e condutores elétricos</h2>
-            <p>Nossa atividade principal, conforme registro na Receita Federal, é a fabricação de fios, cabos e condutores elétricos isolados (CNAE 27.33-3-00).</p>
-        </div>
-
-        <div class="products-grid">
-            <div class="prod">
-                <div class="prod-img">
-                    <img src="https://images.unsplash.com/photo-1611095973763-414019e72400?auto=format&fit=crop&w=800&q=80" alt="Fios elétricos de cobre">
-                </div>
-                <div class="prod-body">
-                    <span class="prod-num">01 / CATEGORIA</span>
-                    <h4>⚡ Fios Elétricos</h4>
-                    <p>Fios de cobre e alumínio, rígidos e flexíveis, para instalações residenciais e comerciais de baixa tensão.</p>
-                    <div class="prod-spec">
-                        <span><strong>Bitolas:</strong> 1,5 mm² a 25 mm²</span>
-                        <span><strong>Isolação:</strong> PVC antichama</span>
-                        <span><strong>Aplicação:</strong> Residencial e comercial</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="prod-img">
-                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80" alt="Bobinas de cabos elétricos industriais">
-                </div>
-                <div class="prod-body">
-                    <span class="prod-num">02 / CATEGORIA</span>
-                    <h4>🔌 Cabos de Potência</h4>
-                    <p>Cabos unipolares e multipolares para transmissão e distribuição de energia em instalações industriais.</p>
-                    <div class="prod-spec">
-                        <span><strong>Bitolas:</strong> 1,5 mm² a 240 mm²</span>
-                        <span><strong>Isolação:</strong> XLPE, PVC e EPR</span>
-                        <span><strong>Aplicação:</strong> Industrial e predial</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="prod-img">
-                    <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=800&q=80" alt="Cabos elétricos coloridos">
-                </div>
-                <div class="prod-body">
-                    <span class="prod-num">03 / CATEGORIA</span>
-                    <h4>🎨 Cabos Flexíveis</h4>
-                    <p>Cabos com isolação em PVC, XLPE e outras coberturas, ideais para diferentes aplicações e ambientes.</p>
-                    <div class="prod-spec">
-                        <span><strong>Bitolas:</strong> 0,5 mm² a 16 mm²</span>
-                        <span><strong>Condutor:</strong> Cobre flexível classe 4/5</span>
-                        <span><strong>Aplicação:</strong> Painéis e equipamentos</span>
-                    </div>
-                </div>
-            </div>
-            <div class="prod">
-                <div class="prod-img">
-                    <img src="https://images.unsplash.com/photo-1581092918484-8313d3d3f3fb?auto=format&fit=crop&w=800&q=80" alt="Condutores elétricos industriais">
-                </div>
-                <div class="prod-body">
-                    <span class="prod-num">04 / CATEGORIA</span>
-                    <h4>⚙️ Condutores Especiais</h4>
-                    <p>Condutores fabricados sob especificação para aplicações industriais, painéis elétricos e automação.</p>
-                    <div class="prod-spec">
-                        <span><strong>Fabricação:</strong> Sob especificação</span>
-                        <span><strong>Opções:</strong> Blindados e não blindados</span>
-                        <span><strong>Aplicação:</strong> Automação e indústria</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== SERVIÇOS ====================== -->
-<section class="block alt" id="servicos">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Como Atendemos</span>
-            <h2>Soluções industriais completas em cabos elétricos</h2>
-            <p>Do orçamento à entrega, estruturamos nosso atendimento para atender indústrias, distribuidores e profissionais com agilidade e qualidade técnica.</p>
-        </div>
-
-        <div class="services-grid">
-            <div class="service">
-                <div class="service-icon">🏭</div>
-                <h4>Fabricação Sob Medida</h4>
-                <p>Produção de fios, cabos e condutores conforme especificação técnica, bitola, comprimento e isolação.</p>
-            </div>
-            <div class="service">
-                <div class="service-icon">📋</div>
-                <h4>Orçamento Personalizado</h4>
-                <p>Análise técnica da demanda e elaboração de proposta comercial ajustada ao volume e ao prazo.</p>
-            </div>
-            <div class="service">
-                <div class="service-icon">🏢</div>
-                <h4>Fornecimento B2B</h4>
-                <p>Atendimento dedicado a indústrias, distribuidores, integradores e profissionais da área elétrica.</p>
-            </div>
-            <div class="service">
-                <div class="service-icon">🚚</div>
-                <h4>Logística e Envio</h4>
-                <p>Estrutura de expedição preparada para atender pedidos em todo o Brasil com agilidade.</p>
-            </div>
-            <div class="service">
-                <div class="service-icon">🔍</div>
-                <h4>Suporte Técnico</h4>
-                <p>Orientação sobre especificação de cabos, bitolas, isolações e melhores soluções para cada aplicação.</p>
-            </div>
-            <div class="service">
-                <div class="service-icon">🛡️</div>
-                <h4>Conformidade e Transparência</h4>
-                <p>Fabricação em conformidade com normas técnicas e legislação vigente, com dados públicos e verificáveis.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== DADOS CADASTRAIS ====================== -->
-<section class="block" id="cadastro">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Transparência Comercial</span>
-            <h2>Dados Cadastrais da Empresa</h2>
-            <p>Informações públicas em conformidade com a Receita Federal do Brasil, apresentadas em atendimento às políticas de transparência comercial.</p>
-        </div>
-
-        <div class="cadastro-grid">
-            <div class="cad-card">
-                <h3><span class="dot"></span> Identificação</h3>
-                <ul class="data-list">
-                    <li>
-                        <span class="label">Razão Social</span>
-                        <span class="value">Eletrica Danubio Industria e Comercio de Materiais Eletricos Ltda.</span>
-                    </li>
-                    <li>
-                        <span class="label">Nome Fantasia</span>
-                        <span class="value">SIL Cabos Elétricos</span>
-                    </li>
-                    <li>
-                        <span class="label">CNPJ</span>
-                        <span class="value">61.310.256/0001-90</span>
-                    </li>
-                    <li>
-                        <span class="label">Data de Fundação</span>
-                        <span class="value">25/10/1968</span>
-                    </li>
-                    <li>
-                        <span class="label">Natureza Jurídica</span>
-                        <span class="value">Sociedade Empresária Limitada</span>
-                    </li>
-                    <li>
-                        <span class="label">Situação Cadastral</span>
-                        <span class="value"><span class="badge-active">Ativa</span></span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="cad-card">
-                <h3><span class="dot"></span> Atividade e Localização</h3>
-                <ul class="data-list">
-                    <li>
-                        <span class="label">Atividade Principal (CNAE)</span>
-                        <span class="value">27.33-3-00 — Fabricação de fios, cabos e condutores elétricos isolados</span>
-                    </li>
-                    <li>
-                        <span class="label">Cidade / Estado</span>
-                        <span class="value">Guarulhos / São Paulo</span>
-                    </li>
-                    <li>
-                        <span class="label">Endereço</span>
-                        <span class="value">Rua Barão de Penedo, 319 — Anexo 349 R. Sílvio B, 313<br>Cidade Industrial Satélite de São Paulo — Guarulhos/SP — CEP 07222-015</span>
-                    </li>
-                    <li>
-                        <span class="label">E-mail</span>
-                        <span class="value"><!-- ALTERAR -->contato@silcabos.com.br</span>
-                    </li>
-                    <li>
-                        <span class="label">Telefone</span>
-                        <span class="value"><!-- ALTERAR -->(11) 99999-9999</span>
-                    </li>
-                    <li>
-                        <span class="label">Horário de Atendimento</span>
-                        <span class="value">Seg. a Sex., 08h às 18h</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="compliance">
-            <div class="shield">🛡️</div>
-            <div>
-                <strong>Compromisso com a Transparência</strong>
-                <p>Todas as informações cadastrais apresentadas nesta página são verídicas e correspondem ao registro ativo da empresa na Receita Federal do Brasil. A Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda. (SIL Cabos Elétricos) atua em conformidade com a legislação comercial vigente e com as políticas de transparência exigidas por plataformas de publicidade digital.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== DEPOIMENTOS ====================== -->
-<section class="block alt">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">O Que Dizem Nossos Clientes</span>
-            <h2>Confiança construída em mais de cinco décadas</h2>
-            <p>Indústrias, distribuidores e profissionais que confiam na SIL Cabos Elétricos para o fornecimento de fios e cabos.</p>
-        </div>
-
-        <div class="depo-grid">
-            <div class="depo">
-                <div class="quote-mark">"</div>
-                <p>Cabos de qualidade comprovada e entrega dentro do prazo. Um parceiro industrial de confiança para o nosso fornecimento.</p>
-                <div class="author">
-                    <div class="avatar">RA</div>
-                    <div class="author-info">
-                        <span class="name">Indústria Parceira</span>
-                        <span class="role">Setor Elétrico — SP</span>
-                    </div>
-                </div>
-            </div>
-            <div class="depo">
-                <div class="quote-mark">"</div>
-                <p>Atendimento técnico e orientação precisa na especificação dos cabos. Recomendo para qualquer projeto industrial.</p>
-                <div class="author">
-                    <div class="avatar">FC</div>
-                    <div class="author-info">
-                        <span class="name">Distribuidor de Materiais Elétricos</span>
-                        <span class="role">Região Sudeste</span>
-                    </div>
-                </div>
-            </div>
-            <div class="depo">
-                <div class="quote-mark">"</div>
-                <p>Empresa consolidada, com dados cadastrais transparentes e fabricação própria. Uma referência no setor elétrico nacional.</p>
-                <div class="author">
-                    <div class="avatar">LM</div>
-                    <div class="author-info">
-                        <span class="name">Cliente Verificado</span>
-                        <span class="role">Guarulhos / SP</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== FAQ ====================== -->
-<section class="block" id="faq">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Dúvidas Frequentes</span>
-            <h2>Perguntas Frequentes</h2>
-            <p>Respostas rápidas sobre nossa empresa, produtos e formas de contato.</p>
-        </div>
-
-        <div class="faq-wrap">
-            <details class="faq-item">
-                <summary>Qual é a atividade principal da SIL Cabos Elétricos?</summary>
-                <div class="faq-content">
-                    Nossa atividade principal é a fabricação de fios, cabos e condutores elétricos isolados, registrada sob o CNAE 27.33-3-00 na Receita Federal.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>Onde a empresa está localizada?</summary>
-                <div class="faq-content">
-                    Estamos localizados em Guarulhos, no estado de São Paulo, mais precisamente na Cidade Industrial Satélite de São Paulo. Atendemos clientes de todo o Brasil.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>Desde quando a empresa está em atividade?</summary>
-                <div class="faq-content">
-                    A Elétrica Danúbio (SIL Cabos Elétricos) foi fundada em 25 de outubro de 1968 e permanece com situação cadastral ativa na Receita Federal, com mais de 55 anos de atuação.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>Quais produtos a SIL Cabos fabrica?</summary>
-                <div class="faq-content">
-                    Fabricamos fios elétricos, cabos de potência, cabos flexíveis e condutores especiais, atendendo indústrias, distribuidores e profissionais da área elétrica em todo o Brasil.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>O CNPJ da empresa pode ser verificado?</summary>
-                <div class="faq-content">
-                    Sim. O CNPJ 61.310.256/0001-90 é público e pode ser consultado diretamente no site da Receita Federal, confirmando nossa atividade e situação cadastral ativa.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>Vocês fornecem para todo o Brasil?</summary>
-                <div class="faq-content">
-                    Sim. Atendemos clientes de todo o território nacional, com logística estruturada para envio de pedidos em diferentes volumes.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>É possível solicitar cabos sob especificação?</summary>
-                <div class="faq-content">
-                    Sim. Produzimos fios, cabos e condutores conforme especificação técnica do cliente, incluindo bitolas, comprimentos e tipos de isolação.
-                </div>
-            </details>
-            <details class="faq-item">
-                <summary>Como faço para entrar em contato?</summary>
-                <div class="faq-content">
-                    Você pode nos contatar pelo e-mail, telefone ou formulário disponíveis na seção "Contato" desta página. Responderemos o mais breve possível dentro do nosso horário de atendimento.
-                </div>
-            </details>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== CONTATO ====================== -->
-<section class="block alt" id="contato">
-    <div class="container">
-        <div class="section-head">
-            <span class="eyebrow">Fale Conosco</span>
-            <h2>Solicite seu orçamento</h2>
-            <p>Envie sua dúvida, solicitação de orçamento ou especificação de projeto. Nossa equipe responderá pelos canais oficiais abaixo.</p>
-        </div>
-
-        <div class="contato-grid">
-            <div class="contato-info">
-                <h3>Canais Oficiais</h3>
-
-                <div class="c-item">
-                    <div class="ico">📧</div>
-                    <div>
-                        <span class="k">E-mail</span>
-                        <!-- ALTERAR -->
-                        <a href="mailto:contato@silcabos.com.br">contato@silcabos.com.br</a>
-                    </div>
-                </div>
-
-                <div class="c-item">
-                    <div class="ico">📞</div>
-                    <div>
-                        <span class="k">Telefone</span>
-                        <!-- ALTERAR -->
-                        <a href="tel:+5511999999999">(11) 99999-9999</a>
-                    </div>
-                </div>
-
-                <div class="c-item">
-                    <div class="ico">📍</div>
-                    <div>
-                        <span class="k">Endereço</span>
-                        <p class="v">Rua Barão de Penedo, 319 — Anexo 349 R. Sílvio B, 313<br>Cidade Industrial Satélite de São Paulo<br>Guarulhos/SP — CEP 07222-015</p>
-                    </div>
-                </div>
-
-                <div class="c-item">
-                    <div class="ico">🏢</div>
-                    <div>
-                        <span class="k">CNPJ</span>
-                        <p class="v">61.310.256/0001-90</p>
-                    </div>
-                </div>
-
-                <div class="c-item">
-                    <div class="ico">🕒</div>
-                    <div>
-                        <span class="k">Horário de Atendimento</span>
-                        <p class="v">Segunda a Sexta — 08h às 18h</p>
-                    </div>
-                </div>
-            </div>
-
-            <form class="contato-form" action="#" method="post">
-                <h3>Envie uma mensagem</h3>
-
-                <div class="fg-row">
-                    <div class="fg">
-                        <label for="nome">Nome / Empresa *</label>
-                        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome ou empresa">
-                    </div>
-                    <div class="fg">
-                        <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
-                    </div>
-                </div>
-
-                <div class="fg-row">
-                    <div class="fg">
-                        <label for="telefone">Telefone / WhatsApp</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
-                    </div>
-                    <div class="fg">
-                        <label for="assunto">Assunto *</label>
-                        <select id="assunto" name="assunto" required>
-                            <option value="">Selecione…</option>
-                            <option>Fios Elétricos</option>
-                            <option>Cabos de Potência</option>
-                            <option>Cabos Flexíveis</option>
-                            <option>Condutores Especiais</option>
-                            <option>Fabricação Sob Medida</option>
-                            <option>Outros</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="fg">
-                    <label for="mensagem">Mensagem *</label>
-                    <textarea id="mensagem" name="mensagem" required placeholder="Descreva sua demanda ou especificação técnica…"></textarea>
-                </div>
-
-                <button type="submit" class="submit">Enviar Mensagem</button>
-            </form>
-        </div>
-    </div>
-</section>
-
-<!-- ====================== CTA BAND ====================== -->
-<section class="cta-band">
-    <div class="cta-band-inner">
-        <h2>Precisa de fios e cabos com qualidade industrial?</h2>
-        <p>Entre em contato agora mesmo com nossa equipe e receba uma proposta personalizada em fabricação de fios, cabos e condutores elétricos isolados.</p>
-        <a href="#contato" class="btn btn-primary">Solicitar Orçamento →</a>
-    </div>
-</section>
-
-<!-- ====================== FOOTER ====================== -->
-<footer>
-    <div class="footer-grid">
-        <div class="f-brand">
-            <div class="logo">
-                <span style="display:inline-block;width:36px;height:36px;background:linear-gradient(135deg,#0a2240,#12335c);border-radius:10px;color:#f2b705;display:inline-flex;align-items:center;justify-content:center;font-weight:900;font-size:0.72rem;">SIL</span>
-                SIL <span>Cabos Elétricos</span>
-            </div>
-            <p>Fabricação de fios, cabos e condutores elétricos isolados em Guarulhos/SP. Indústria própria com mais de 55 anos de experiência no setor elétrico brasileiro.</p>
-            <div class="cnpj-box">
-                CNPJ: <strong>61.310.256/0001-90</strong>
-            </div>
-        </div>
-
-        <div class="f-col">
-            <h4>Institucional</h4>
-            <ul>
-                <li><a href="#sobre">Sobre a Empresa</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#cadastro">Dados Cadastrais</a></li>
-            </ul>
-        </div>
-
-        <div class="f-col">
-            <h4>Produtos</h4>
-            <ul>
-                <li><a href="#produtos">Fios Elétricos</a></li>
-                <li><a href="#produtos">Cabos de Potência</a></li>
-                <li><a href="#produtos">Cabos Flexíveis</a></li>
-                <li><a href="#produtos">Condutores Especiais</a></li>
-            </ul>
-        </div>
-
-        <div class="f-col">
-            <h4>Legal</h4>
-            <ul>
-                <li><a href="#">Política de Privacidade</a></li>
-                <li><a href="#">Termos de Uso</a></li>
-                <li><a href="#">Política de Cookies</a></li>
-                <li><a href="#cadastro">Transparência</a></li>
-            </ul>
-        </div>
-
-        <div class="f-col">
-            <h4>Contato</h4>
-            <p>
-                <strong>E-mail:</strong><br>
-                <!-- ALTERAR -->contato@silcabos.com.br<br><br>
-                <strong>Telefone:</strong><br>
-                <!-- ALTERAR -->(11) 99999-9999<br><br>
-                <strong>Endereço:</strong><br>
-                Rua Barão de Penedo, 319 — Anexo 349 R. Sílvio B, 313<br>
-                Cidade Industrial Satélite de São Paulo<br>
-                Guarulhos/SP — CEP 07222-015
-            </p>
-        </div>
-    </div>
-
-    <div class="footer-bottom">
-        <div>© <span id="year"></span> Elétrica Danúbio Indústria e Comércio de Materiais Elétricos Ltda. — SIL Cabos Elétricos. Todos os direitos reservados.</div>
-        <div class="links">
-            <a href="#">Privacidade</a> • 
-            <a href="#">Termos</a> • 
-            <a href="#cadastro">CNPJ 61.310.256/0001-90</a>
-        </div>
-    </div>
-</footer>
-
-<!-- ====================== WHATSAPP FLOAT ====================== -->
-<a href="https://wa.me/5511999999999" class="wa" target="_blank" rel="noopener" aria-label="WhatsApp">
-    💬
-</a>
-
-<script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') {
+                setMenu(false);
+                menuBtn.focus();
+            }
+        });
+    </script>
 </body>
 </html>
